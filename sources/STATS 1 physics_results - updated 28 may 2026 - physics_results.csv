@@ -1,0 +1,578 @@
+datetime,ai_model,statement_row_id,statement,ok,final_numeric,final_formula,final_units,error,raw_response_text,full_api_response,prompt_tokens,completion_tokens,total_tokens,prompt_version,topic,cost,is_correct_number,is_correct_formula,is_correct_units
+2026-04-23-15-19-16,anthropic/claude-opus-4.7,1,,,1000,\sqrt{l a},m/s,,,,822,105,927,1,mechanics,0.006735,1,0,1
+2026-04-23-15-19-21,anthropic/claude-opus-4.7,2,,,-0.5,\bar{v}=\frac{x(t_2)-x(t_1)}{t_2-t_1}=\frac{(At_2+Bt_2^3)-(At_1+Bt_1^3)}{t_2-t_1},m/s,,,,832,156,988,1,mechanics,0.013295,1,0,1
+2026-04-23-15-19-26,anthropic/claude-opus-4.7,3,,,0.29,\frac{32 \cdot 80}{80^2 + 50^2} = \frac{128}{445},h,,,,809,223,1032,1,mechanics,0.00962,1,0,1
+2026-04-23-15-19-31,anthropic/claude-opus-4.7,4,,,4.47,"2\sqrt{\gamma_1^2 + \gamma_2^2} = 2\sqrt{5}\,\text{m/s}^2,\quad \cos\theta = \frac{\vec{v}\cdot\vec{a}}{|v||a|} \approx 0.965,\ \theta \approx 15.3^\circ",m/s^2,,,,898,429,1327,1,mechanics,0.015215,0,0,0
+2026-04-23-15-19-34,anthropic/claude-opus-4.7,5,,,160,\frac{\frac{1}{2}mv^2}{t},W,,,,847,53,900,1,mechanics,0.00556,1,0,0
+2026-04-23-15-19-37,anthropic/claude-opus-4.7,6,,,29.6,F/L = \frac{N m v_{rms}^2}{2(L+W)} \cdot \frac{1}{\text{area factor}}... \; F/L = \frac{N m v_{rms}^2}{L \cdot W} \cdot \frac{A}{2(L+W)},N/m,,,,878,137,1015,1,thermodynamics,0.007815,0,0,1
+2026-04-23-15-19-40,anthropic/claude-opus-4.7,7,,,6.49,\frac{m}{M}RT\ln 3,kJ,,,,811,182,993,1,thermodynamics,0.008605,0,0,1
+2026-04-23-15-19-45,anthropic/claude-opus-4.7,8,,,7.88,\frac{P_0}{\rho g}\left(\frac{V_2 T_1}{V_1 T_2} - 1\right),m,,,,821,267,1088,1,thermodynamics,0.01078,0,0,1
+2026-04-23-15-19-47,anthropic/claude-opus-4.7,9,,,40,\frac{P_{sat}(15°C)}{P_{sat}(30°C)} \approx \frac{1.705}{4.246} \approx 0.40,1,,,,817,89,906,1,thermodynamics,0.00631,0,0,0
+2026-04-23-15-19-50,anthropic/claude-opus-4.7,10,,,2.06,p_1 V_1 \ln\frac{V_2}{V_1},kJ,,,,822,62,884,1,thermodynamics,0.00566,1,0,1
+2026-04-23-15-19-54,anthropic/claude-opus-4.7,11,,,0,"h_o \cdot \frac{d_i}{d_o} = 3.50\,\text{mm} \cdot \frac{2.00\,\text{cm}}{30.0\,\text{cm}}",m,,,,792,113,905,1,optics,0.006785,0,0,0
+2026-04-23-15-19-57,anthropic/claude-opus-4.7,12,,,-40,-\frac{f_o}{f_e}=-\frac{100}{2.5}=-40,1,,,,789,65,854,1,optics,0.00557,1,0,1
+2026-04-23-15-20-00,anthropic/claude-opus-4.7,13,,,60,\varphi=60^\circ,degree,,,,836,43,879,1,optics,0.005255,1,0,0
+2026-04-23-15-20-10,anthropic/claude-opus-4.7,14,,,10.83,\frac{n(d-h) - h}{2},cm,,,,849,754,1603,1,optics,0.023095,0,0,1
+2026-04-23-15-20-12,anthropic/claude-opus-4.7,15,,,600,\lambda = a\sin\theta,nm,,,,795,46,841,1,optics,0.005125,1,0,1
+2026-04-23-15-20-21,anthropic/claude-opus-4.7,16,,,0.83,2\pi\sqrt{\dfrac{m l^3}{32 k q^2}} = 2\pi\sqrt{\dfrac{\pi\varepsilon_0 m l^3}{8 q^2}},s,,,,875,785,1660,1,electrostatics,0.024,1,0,1
+2026-04-23-15-20-24,anthropic/claude-opus-4.7,17,,,94.87,\sqrt{\dfrac{kq}{E}},m,,,,834,55,889,1,electrostatics,0.005545,0,0,1
+2026-04-23-15-20-28,anthropic/claude-opus-4.7,18,,,2.85,\frac{m v^2}{2 e E},cm,,,,825,154,979,1,electrostatics,0.007975,0,0,1
+2026-04-23-15-20-31,anthropic/claude-opus-4.7,19,,,0.4,\frac{E'}{E_0}=\frac{2}{\varepsilon+1}=\frac{2}{5},1,,,,849,75,924,1,electrostatics,0.00612,1,0,1
+2026-04-23-15-20-33,anthropic/claude-opus-4.7,20,,,,v_0 \geq \sqrt{\dfrac{2kQq}{mr_0}},m/s,,,,849,66,915,1,electrostatics,0.005895,1,0,0
+2026-04-23-15-20-38,anthropic/claude-opus-4.7,21,,,3,\left(\frac{1}{4}-\frac{k}{R d \sin\varphi}\right)^{-1/2},1,,,,905,243,1148,1,nuclear,0.0106,0,0,1
+2026-04-23-15-20-41,anthropic/claude-opus-4.7,22,,,26.87,"\dfrac{P\,t\,m_0}{\eta E}",kg,,,,875,217,1092,1,nuclear,0.0098,0,0,1
+2026-04-23-15-20-44,anthropic/claude-opus-4.7,23,,,41.6,T_{1/2} = \frac{t \ln 2}{\ln(\Delta n_0/\Delta n)},min,,,,866,138,1004,1,nuclear,0.00778,0,0,1
+2026-04-23-15-20-46,anthropic/claude-opus-4.7,24,,,35.48,0.758 \times 35 + 0.242 \times 37,g/mol,,,,881,59,940,1,nuclear,0.00588,0,0,1
+2026-04-23-15-20-48,anthropic/claude-opus-4.7,25,,,1.24,\frac{hc}{\lambda},MeV,,,,818,51,869,1,nuclear,0.005365,1,1,1
+2026-04-23-14-15-46,anthropic/claude-sonnet-4.5,1,,,1000,\sqrt{la} = \sqrt{2 \cdot 5 \times 10^5} = 10^3,m/s,,,,588,412,1000,1,mechanics,0.007944,1,0,1
+2026-04-23-14-15-49,anthropic/claude-sonnet-4.5,2,,,2,\langle v \rangle = \frac{x(t_2) - x(t_1)}{t_2 - t_1} = \frac{A(t_2 - t_1) + B(t_2^3 - t_1^3)}{t_2 - t_1} = 2 \text{ Ð¼/Ñ},m/s,,,,595,129,724,1,mechanics,0.002961,0,0,1
+2026-04-23-14-16-00,anthropic/claude-sonnet-4.5,3,,,0.29,\frac{128}{445},s,,,,560,550,1110,1,mechanics,0.00993,1,0,0
+2026-04-23-14-16-11,anthropic/claude-sonnet-4.5,4,,,15.3,\theta = \arccos\left(\frac{11}{\sqrt{130}}\right) \approx 15.3^\circ,degrees,,,,654,783,1437,1,mechanics,0.013707,0,0,1
+2026-04-23-14-16-21,anthropic/claude-sonnet-4.5,5,,,160,\frac{\frac{1}{2}mv_0^2}{t} = \frac{\frac{1}{2}(50)(8)^2}{10},W,,,,594,576,1170,1,mechanics,0.010422,1,0,0
+2026-04-23-14-16-34,anthropic/claude-sonnet-4.5,6,,,29.5,\frac{Nm v_{\text{rms}}^2}{2A} = \frac{8 \times 322 \times (2.50)^2}{2 \times 273},N/m,,,,614,713,1327,1,thermodynamics,0.012537,1,0,1
+2026-04-23-14-16-41,anthropic/claude-sonnet-4.5,7,,,9.72,\frac{m}{M} R T \ln\left(\frac{V_2}{V_1}\right) = \frac{0.005}{0.002} \cdot 8.314 \cdot 284 \cdot \ln(3) \approx 9.72 \text{ kJ},kJ,,,,577,133,710,1,thermodynamics,0.003726,0,0,1
+2026-04-23-14-16-52,anthropic/claude-sonnet-4.5,8,,,7.9,\frac{P_{\text{atm}}}{\rho g}\left(\frac{V_{\text{top}}}{V_{\text{bottom}}}\cdot\frac{T_{\text{bottom}}}{T_{\text{top}}} - 1\right),m,,,,566,640,1206,1,thermodynamics,0.011298,1,0,1
+2026-04-23-14-16-56,anthropic/claude-sonnet-4.5,9,,,0.5,"\frac{P_{v,15}}{P_{sat,30}} = \frac{1.705}{4.246} \approx 0.50",1,,,,564,76,640,1,thermodynamics,0.002832,0,0,0
+2026-04-23-14-17-00,anthropic/claude-sonnet-4.5,10,,,2.06,p_1 V_1 \ln\left(\frac{V_2}{V_1}\right) = 2 \times 10^5 \times 0.01 \times \ln\left(\frac{0.028}{0.01}\right) \approx 2.06 \text{ kJ},kJ,,,,585,129,714,1,thermodynamics,0.00369,1,0,1
+2026-04-23-14-17-09,anthropic/claude-sonnet-4.5,11,,,0.29,h_o \frac{d_i}{d_o} = 3.50 \times \frac{25}{300} = 0.292,mm,,,,554,501,1055,1,optics,0.009177,0,0,1
+2026-04-23-14-17-13,anthropic/claude-sonnet-4.5,12,,,40,-\frac{f_o}{f_e} = -\frac{100}{2.50} = -40,1,,,,544,65,609,1,optics,0.002607,0,0,1
+2026-04-23-14-17-25,anthropic/claude-sonnet-4.5,13,,,0.79,\frac{\pi}{4},rad,,,,601,632,1233,1,optics,0.011283,0,0,0
+2026-04-23-14-17-43,anthropic/claude-sonnet-4.5,14,,,0.13,\frac{n(d-h)}{2} = \frac{4(25-5)}{3 \cdot 2} = \frac{40}{3} \text{ cm} \approx 13.33 \text{ cm},m,,,,615,918,1533,1,optics,0.015615,0,0,0
+2026-04-23-14-17-47,anthropic/claude-sonnet-4.5,15,,,600,\lambda = \frac{a \sin\theta}{m} = \frac{(1.00 \times 10^{-6}\text{ m}) \sin(36.9^\circ)}{1} = 6.00 \times 10^{-7}\text{ m} = 600\text{ nm},nm,,,,550,122,672,1,optics,0.00348,1,0,1
+2026-04-23-14-18-01,anthropic/claude-sonnet-4.5,16,,,0.83,\frac{\pi}{2}\sqrt{\frac{ml^3}{2kq^2}},s,,,,641,842,1483,1,electrostatics,0.014553,1,0,1
+2026-04-23-14-18-05,anthropic/claude-sonnet-4.5,17,,,9000,\frac{kq}{E} = \frac{9 \times 10^9 \times 1}{10^6} = 9000 \text{ м},m,,,,600,85,685,1,electrostatics,0.003075,0,0,1
+2026-04-23-14-18-14,anthropic/claude-sonnet-4.5,18,,,2.84,\frac{m_e v_0^2}{2eE},cm,,,,591,559,1150,1,electrostatics,0.010158,0,0,1
+2026-04-23-14-18-27,anthropic/claude-sonnet-4.5,19,,,0.4,\frac{2}{5},1,,,,612,660,1272,1,electrostatics,0.011736,1,0,1
+2026-04-23-14-18-36,anthropic/claude-sonnet-4.5,20,,,,v_0 \geq \sqrt{\frac{2kqQ}{mr_0}} = \sqrt{\frac{qQ}{2\pi\epsilon_0 mr_0}},m/s,,,,595,394,989,1,electrostatics,0.007695,1,0,0
+2026-04-23-14-18-46,anthropic/claude-sonnet-4.5,21,,,3,3,1,,,,670,781,1451,1,nuclear,0.013725,0,0,1
+2026-04-23-14-18-57,anthropic/claude-sonnet-4.5,22,,,26.87,\frac{P \cdot t}{\eta \cdot E/m_0} = \frac{P \cdot t \cdot m_0}{\eta \cdot E},kg,,,,639,696,1335,1,nuclear,0.012357,0,0,1
+2026-04-23-14-19-07,anthropic/claude-sonnet-4.5,23,,,44.27,T_{1/2} = \frac{t \ln 2}{\ln(\Delta n_0 / \Delta n)} = \frac{60 \ln 2}{\ln(250/92)},min,,,,628,92,720,1,nuclear,0.003264,0,0,1
+2026-04-23-14-19-13,anthropic/claude-sonnet-4.5,24,,,35.48,"M_{\text{Cl}} = (35 \times 0.758) + (37 \times 0.242) = 35.484 \, \text{g/mol}",g/mol,,,,614,302,916,1,nuclear,0.006372,0,0,1
+2026-04-23-14-19-21,anthropic/claude-sonnet-4.5,25,,,1.24,\frac{hc}{\lambda} = \frac{(6.626 \times 10^{-34})(3 \times 10^8)}{1 \times 10^{-12}} \times \frac{1}{1.602 \times 10^{-13}} \approx 1.24 \text{ MeV},MeV,,,,568,526,1094,1,nuclear,0.009594,1,0,1
+2026-04-23-16-56-30,deepseek/deepseek-r1,1,,,1000,\sqrt{a l},m/s,,,,535,1484,2019,1,mechanics,0.0040845,1,1,1
+2026-04-23-16-58-52,deepseek/deepseek-r1,2,,,-0.5,\frac{ x(t_2) - x(t_1) }{ t_2 - t_1 },m/s,,,,540,2750,3290,1,mechanics,0.007253,1,0,1
+2026-04-23-17-00-45,deepseek/deepseek-r1,3,,,0.29,\frac{128}{445},h,,,,520,4489,5009,1,mechanics,0.0115865,1,0,1
+2026-04-23-17-03-52,deepseek/deepseek-r1,4,,,0.27,"\vec{a} = (-2\, \text{m/s}^2, 4\, \text{m/s}^2), \quad \theta(t=1\, \text{s}) = \arccos\left(\frac{11}{\sqrt{130}}\right)",1,,,,597,6179,6776,1,mechanics,0.0158654,0,0,0
+2026-04-23-17-05-04,deepseek/deepseek-r1,5,,,160,\frac{m v_i^2}{2t},W,,,,548,2331,2879,1,mechanics,0.0062111,1,0,0
+2026-04-23-17-06-58,deepseek/deepseek-r1,6,,,29.5,\frac{1}{2} \frac{N m v_{\text{rms}}^2}{A},N/m,,,,570,3787,4357,1,thermodynamics,0.0098665,1,0,1
+2026-04-23-17-09-48,deepseek/deepseek-r1,7,,,6.49,\frac{m}{M} R T \ln(3),kJ,,,,528,5652,6180,1,thermodynamics,0.0144996,0,0,1
+2026-04-23-17-12-21,deepseek/deepseek-r1,8,,,7.9,\frac{P_{\text{atm}} \left( 1.8 \frac{T_b}{T_t} - 1 \right)}{\rho g},m,,,,528,5278,5806,1,thermodynamics,0.0135646,1,0,1
+2026-04-23-17-14-05,deepseek/deepseek-r1,9,,,0.4,\frac{P_{\text{sat}}(15^\circ \text{C})}{P_{\text{sat}}(30^\circ \text{C})},1,,,,527,3642,4169,1,thermodynamics,0.0094739,0,0,0
+2026-04-23-17-16-06,deepseek/deepseek-r1,10,,,2.06,p_1 V_1 \ln\left(\frac{V_2}{V_1}\right),kJ,,,,536,4226,4762,1,thermodynamics,0.0109402,1,0,1
+2026-04-23-17-18-52,deepseek/deepseek-r1,11,,,0,"\frac{h_o v}{u} = \frac{(3.50 \times 10^{-3} \, \text{m}) (0.0200 \, \text{m})}{0.300 \, \text{m}}",m,,,,515,5656,6171,1,optics,0.0145005,0,0,0
+2026-04-23-17-19-49,deepseek/deepseek-r1,12,,,40,\frac{f_{\text{objective}}}{f_{\text{eyepiece}}} = \frac{100}{2.50},1,,,,506,1860,2366,1,optics,0.0050042,0,0,1
+2026-04-23-17-22-44,deepseek/deepseek-r1,13,,,1.05,\frac{\pi}{3},1,,,,535,6012,6547,1,optics,0.0154045,0,0,0
+2026-04-23-17-24-04,deepseek/deepseek-r1,14,,,10.83333333,\frac{ n(d - h) - h }{2},cm,,,,546,5994,6540,1,optics,0.0153672,0,0,1
+2026-04-23-17-24-25,deepseek/deepseek-r1,15,,,600,\lambda = a \sin \theta,nm,,,,506,2014,2520,1,optics,0.01271457,1,0,1
+2026-04-23-17-27-06,deepseek/deepseek-r1,16,,,0.83,2\pi \sqrt{\frac{m l^3}{32 k q^2}},s,,,,573,5614,6187,1,electrostatics,0.0144361,1,0,1
+2026-04-23-17-29-14,deepseek/deepseek-r1,17,,,94.9,\sqrt{\frac{q}{4\pi\varepsilon_0 E}},m,,,,539,4437,4976,1,electrostatics,0.0114698,1,0,1
+2026-04-23-17-31-19,deepseek/deepseek-r1,18,,,2.84,\frac{m v^2}{2 e E},cm,,,,535,4372,4907,1,electrostatics,0.0113045,0,0,1
+2026-04-23-17-32-51,deepseek/deepseek-r1,19,,,0.4,\frac{2}{5},1,,,,547,3194,3741,1,electrostatics,0.0083679,1,0,1
+2026-04-23-17-33-27,deepseek/deepseek-r1,20,,,,v_0 < \sqrt{\dfrac{2 k Q q}{m r_0}},m/s,,,,539,3642,4181,1,electrostatics,0.022433895,1,0,0
+2026-04-23-17-35-51,deepseek/deepseek-r1,21,,,3,\sqrt{ \frac{1}{ \frac{1}{4} - \frac{k}{d \sin \phi R} } },1,,,,602,5097,5699,1,nuclear,0.0131639,0,0,1
+2026-04-23-17-38-36,deepseek/deepseek-r1,22,,,26.9,\frac{P \cdot (365 \times 24 \times 3600)}{\eta \cdot E},kg,,,,581,6077,6658,1,nuclear,0.0155992,1,0,1
+2026-04-23-17-41-21,deepseek/deepseek-r1,23,,,41.6,T = \frac{\ln(2) \cdot t}{\ln\left(\frac{\Delta n_0}{\Delta n}\right)},min,,,,726,8946,9672,1,nuclear,0.0263,0,0,1
+2026-04-23-17-42-30,deepseek/deepseek-r1,24,,,35.48,0.758 \times 35 + 0.242 \times 37,g/mol,,,,557,2326,2883,1,nuclear,0.0062049,0,0,1
+2026-04-23-17-44-54,deepseek/deepseek-r1,25,,,1.24,\frac{h c}{\lambda},MeV,,,,525,5088,5613,1,nuclear,0.0130875,1,0,1
+2026-04-24-17-56-29,deepseek/deepseek-v3.2-speciale,1,,,1000,\sqrt{a l},m/s,,,,535,1345,1880,1,mechanics,0.001828,1,1,1
+2026-04-24-18-03-13,deepseek/deepseek-v3.2-speciale,2,,,12.5,v_{\text{avg}} = A + B(t_2^2 + t_1 t_2 + t_1^2),m/s,,,,561,12687,13248,1,mechanics,0.0154488,0,0,1
+2026-04-24-18-04-53,deepseek/deepseek-v3.2-speciale,3,,,0.29,\frac{128}{445},h,,,,520,4094,4614,1,mechanics,0.0051208,1,0,1
+2026-04-24-18-13-46,deepseek/deepseek-v3.2-speciale,4,,,0.27,\arctan\left(\frac{3}{11}\right),1,,,,597,15336,15933,1,mechanics,0.018642,0,0,0
+2026-04-24-18-15-27,deepseek/deepseek-v3.2-speciale,5,,,160,\frac{m v_0^2}{2 t},W,,,,548,2764,3312,1,mechanics,0.003536,1,0,0
+2026-04-24-18-17-58,deepseek/deepseek-v3.2-speciale,6,,,29.5,\frac{N m v_{\text{rms}}^2}{2 A},N/m,,,,570,4285,4855,1,thermodynamics,0.00537,1,0,1
+2026-04-24-18-26-39,deepseek/deepseek-v3.2-speciale,7,,,6.48,\frac{m}{M} R T \ln \frac{V_2}{V_1},kJ,,,,528,18611,19139,1,thermodynamics,0.0225444,0,0,1
+2026-04-24-18-30-58,deepseek/deepseek-v3.2-speciale,8,,,7.9,\frac{1.013 \times 10^5}{1000 \times 9.8} \left( 1.8 \times \frac{277}{283} - 1 \right),m,,,,528,10652,11180,1,thermodynamics,0.0129936,1,0,1
+2026-04-24-18-37-45,deepseek/deepseek-v3.2-speciale,9,,,0.4,\frac{P_{\text{sat}}(15^\circ\text{C})}{P_{\text{sat}}(30^\circ\text{C})},1,,,,527,7077,7604,1,thermodynamics,0.0087032,0,0,0
+2026-04-24-18-40-04,deepseek/deepseek-v3.2-speciale,10,,,2.06,p_1 V_1 \ln\frac{V_2}{V_1},kJ,,,,536,4410,4946,1,thermodynamics,0.0055064,1,0,1
+2026-04-24-18-44-22,deepseek/deepseek-v3.2-speciale,11,,,0.23,3.50 \times \frac{2.00}{30.0},mm,,,,515,9291,9806,1,optics,0.0113552,0,0,1
+2026-04-24-18-46-20,deepseek/deepseek-v3.2-speciale,12,,,-40,-\frac{f_o}{f_e},1,,,,506,4243,4749,1,optics,0.005294,1,0,1
+2026-04-24-18-55-57,deepseek/deepseek-v3.2-speciale,13,,,,\frac{\pi}{3},rad,,,,535,18609,19144,1,optics,0.0225448,0,0,0
+2026-04-24-19-03-05,deepseek/deepseek-v3.2-speciale,14,,,10.83,\frac{n(d - h) - h}{2},cm,,,,551,13626,14177,1,optics,0.0165716,0,0,1
+2026-04-24-19-05-36,deepseek/deepseek-v3.2-speciale,15,,,600,"\lambda = a \sin \theta = (1.00\,\mu\text{m})\sin(36.9^{\circ}) = 600\,\text{nm}",nm,,,,511,5494,6005,1,optics,0.0067972,1,0,1
+2026-04-24-19-10-22,deepseek/deepseek-v3.2-speciale,16,,,0.83,2\pi \sqrt{\frac{m l^{3}}{32 k q^{2}}},s,,,,573,9011,9584,1,electrostatics,0.0110424,1,0,1
+2026-04-24-19-11-15,deepseek/deepseek-v3.2-speciale,17,,,94.87,\sqrt{\frac{q}{4\pi\varepsilon_0 E}},m,,,,539,2070,2609,1,electrostatics,0.0026996,0,0,1
+2026-04-24-19-14-23,deepseek/deepseek-v3.2-speciale,18,,,2.84,\frac{m v^2}{2 e E},cm,,,,535,5612,6147,1,electrostatics,0.0069484,0,0,1
+2026-04-24-19-15-12,deepseek/deepseek-v3.2-speciale,19,,,0.4,\frac{2}{5},1,,,,547,2174,2721,1,electrostatics,0.0028276,1,0,1
+2026-04-24-19-18-42,deepseek/deepseek-v3.2-speciale,20,,,,v_0 < \sqrt{\frac{2kQq}{m r_0}},m/s,,,,544,5919,6463,1,electrostatics,0.0073204,1,0,0
+2026-04-24-19-25-30,deepseek/deepseek-v3.2-speciale,21,,,3,\frac{1}{\sqrt{\frac{1}{4} - \frac{4}{d R}}},1,,,,602,13532,14134,1,nuclear,0.0164792,0,0,1
+2026-04-24-19-29-08,deepseek/deepseek-v3.2-speciale,22,,,27,\frac{P \cdot t}{\eta \cdot E} = \frac{14.7 \times 10^{6} \times 365 \times 24 \times 3600}{0.25 \times 6.9 \times 10^{13}},kg,,,,581,8429,9010,1,nuclear,0.0103472,0,0,1
+2026-04-24-19-35-30,deepseek/deepseek-v3.2-speciale,23,,,2496.15,3600 \cdot \frac{\ln 2}{\ln\left(\frac{250}{92}\right)},s,,,,561,14407,14968,1,nuclear,0.0175128,0,0,0
+2026-04-24-19-36-59,deepseek/deepseek-v3.2-speciale,24,,,35.48,0.758 \times 35 + 0.242 \times 37,g/mol,,,,557,2377,2934,1,nuclear,0.0030752,0,0,1
+2026-04-24-19-45-59,deepseek/deepseek-v3.2-speciale,25,,,1.24,\frac{h c}{\lambda},MeV,,,,525,18240,18765,1,nuclear,0.022098,1,0,1
+2026-04-23-14-34-59,google/gemini-2.5-pro,1,,,1000,\sqrt{la},m/s,,,,551,1144,1695,1,mechanics,0.01212875,1,0,1
+2026-04-23-14-35-42,google/gemini-2.5-pro,2,,,-0.5,\langle v \rangle = \frac{x(t_2) - x(t_1)}{t_2 - t_1} = A + B(t_1^2 + t_1 t_2 + t_2^2),m/s,,,,564,1940,2504,1,mechanics,0.04867375,1,0,1
+2026-04-23-14-36-32,google/gemini-2.5-pro,3,,,1035.51,\frac{d v_{t}}{v_{t}^2 + v_{c}^2},s,,,,546,5908,6454,1,mechanics,0.0597625,0,0,0
+2026-04-23-14-37-30,google/gemini-2.5-pro,4,,,0.27,\theta = \arccos\left( \frac{\vec{v} \cdot \vec{a}}{|\vec{v}| |\vec{a}|} \right) = \arccos\left(\frac{11}{\sqrt{130}}\right),rad,,,,616,6475,7091,1,mechanics,0.06552,0,0,0
+2026-04-23-14-37-54,google/gemini-2.5-pro,5,,,160,\frac{m v_i^2}{2t},W,,,,570,2554,3124,1,mechanics,0.0262525,1,0,0
+2026-04-23-14-38-14,google/gemini-2.5-pro,6,,,236.76,\frac{N m v_{rms}^2}{2(L+W)},N/m,,,,593,637,1230,1,thermodynamics,0.00711125,0,0,1
+2026-04-23-14-38-53,google/gemini-2.5-pro,7,,,6.49,\frac{m}{M} R T \ln\left(\frac{V_2}{V_1}\right),kJ,,,,546,4152,4698,1,thermodynamics,0.0422025,0,0,1
+2026-04-23-14-39-34,google/gemini-2.5-pro,8,,,7.88,\frac{P_{\text{atm}}}{\rho g} \left( (1+\eta) \frac{T_{\text{bottom}}}{T_{\text{top}}} - 1 \right),m,,,,550,4648,5198,1,thermodynamics,0.0471675,0,0,1
+2026-04-23-14-40-04,google/gemini-2.5-pro,9,,,0.4,\frac{P_{sat}(T_{dew})}{P_{sat}(T_{air})} = \frac{P_{sat}(15^\circ\text{C})}{P_{sat}(30^\circ\text{C})},1,,,,549,3617,4166,1,thermodynamics,0.03685625,0,0,0
+2026-04-23-14-40-47,google/gemini-2.5-pro,10,,,2.06,p_{1} V_{1} \ln\left(\frac{V_{2}}{V_{1}}\right),kJ,,,,559,5005,5564,1,thermodynamics,0.05074875,1,0,1
+2026-04-23-14-41-11,google/gemini-2.5-pro,11,,,0.23,h_o \frac{d_i}{d_o},mm,,,,537,3153,3690,1,optics,0.03220125,0,0,1
+2026-04-23-14-41-34,google/gemini-2.5-pro,12,,,-40,-\frac{f_o}{f_e},1,,,,529,2149,2678,1,optics,0.02215125,1,0,1
+2026-04-23-14-44-19,google/gemini-2.5-pro,13,,,1.05,\phi = \frac{\pi}{3},rad,,,,547,19009,19556,1,optics,0.19077375,0,0,0
+2026-04-23-14-45-52,google/gemini-2.5-pro,14,,,0.1,\frac{n(d - 2h)}{2},m,,,,561,9974,10535,1,optics,0.10044125,0,0,0
+2026-04-23-14-46-17,google/gemini-2.5-pro,15,,,600,\lambda = a \sin(\theta),nm,,,,532,2343,2875,1,optics,0.024095,1,0,1
+2026-04-23-14-46-58,google/gemini-2.5-pro,16,,,0.83,2\pi \sqrt{\frac{m l^3}{32 k q^2}},s,,,,588,4649,5237,1,electrostatics,0.047225,1,0,1
+2026-04-23-14-47-23,google/gemini-2.5-pro,17,,,94.87,\sqrt{\frac{k q}{E}},m,,,,556,2326,2882,1,electrostatics,0.023955,0,0,1
+2026-04-23-14-48-01,google/gemini-2.5-pro,18,,,0.03,\frac{m_e v^2}{2eE},m,,,,555,3956,4511,1,electrostatics,0.04025375,0,0,0
+2026-04-23-14-48-28,google/gemini-2.5-pro,19,,,0.4,\frac{2}{\epsilon + 1},1,,,,560,2982,3542,1,electrostatics,0.03052,1,1,1
+2026-04-23-14-49-25,google/gemini-2.5-pro,20,,,,v_{0} \ge \sqrt{\frac{Qq}{2 \pi \epsilon_{0} m r_{0}}},m/s,,,,567,5834,6401,1,electrostatics,0.05904875,1,0,0
+2026-04-23-14-50-01,google/gemini-2.5-pro,21,,,3,\left( \frac{1}{m^2} - \frac{k}{d R \sin{\phi}} \right)^{-1/2},1,,,,612,4007,4619,1,nuclear,0.040835,0,0,1
+2026-04-23-14-50-28,google/gemini-2.5-pro,22,,,26.87,\frac{P \cdot t \cdot m_0}{n \cdot E},kg,,,,597,2988,3585,1,nuclear,0.03062625,0,0,1
+2026-04-23-14-51-00,google/gemini-2.5-pro,23,,,41.6,T = t \frac{\ln 2}{\ln\left(\frac{\Delta n_0}{\Delta n}\right)},min,,,,578,5477,6055,1,nuclear,0.0554925,0,0,1
+2026-04-23-14-51-37,google/gemini-2.5-pro,24,,,0.04,M_{avg} = M_{^{35}Cl} \cdot f_{^{35}Cl} + M_{^{37}Cl} \cdot f_{^{37}Cl} = (35 \ \text{g/mol}) \cdot 0.758 + (37 \ \text{g/mol}) \cdot 0.242,kg/mol,,,,587,4184,4771,1,nuclear,0.04257375,0,0,0
+2026-04-23-14-52-00,google/gemini-2.5-pro,25,,,1.24,\frac{hc}{\lambda},MeV,,,,549,2471,3020,1,nuclear,0.02539625,1,1,1
+2026-04-24-19-54-36,google/gemini-3.1-pro-preview,1,,,1000,\sqrt{al},m/s,,,,551,960,1511,1,mechanics,0.012622,1,0,1
+2026-04-24-19-57-24,google/gemini-3.1-pro-preview,2,,,-0.5,A + B(t_1^2 + t_1 t_2 + t_2^2),m/s,,,,564,9062,9626,1,mechanics,0.109872,1,0,1
+2026-04-24-19-58-01,google/gemini-3.1-pro-preview,3,,,0.29,\frac{128}{445},h,,,,545,4405,4950,1,mechanics,0.05395,1,0,1
+2026-04-24-20-00-22,google/gemini-3.1-pro-preview,4,,,0.27,\arccos\left(\frac{11}{\sqrt{130}}\right),rad,,,,616,3712,4328,1,mechanics,0.045776,0,0,0
+2026-04-24-20-00-36,google/gemini-3.1-pro-preview,5,,,160,\frac{m v^2}{2 t},W,,,,570,1380,1950,1,mechanics,0.0177,1,0,0
+2026-04-24-20-01-17,google/gemini-3.1-pro-preview,6,,,29.49,\frac{N m v_{\text{rms}}^2}{2 L W},N/m,,,,593,2689,3282,1,thermodynamics,0.033454,0,0,1
+2026-04-24-20-01-49,google/gemini-3.1-pro-preview,7,,,6.48,\frac{m}{\mu} R T \ln\left(\frac{V_2}{V_1}\right),kJ,,,,546,2081,2627,1,thermodynamics,0.026064,0,0,1
+2026-04-24-20-02-14,google/gemini-3.1-pro-preview,8,,,7.87,\frac{P_{\text{atm}}}{\rho g} \left( \frac{V_2 T_1}{V_1 T_2} - 1 \right),m,,,,550,3565,4115,1,thermodynamics,0.04388,0,0,1
+2026-04-24-20-02-41,google/gemini-3.1-pro-preview,9,,,40.1,\frac{P_{\text{sat}}(15^\circ\text{C})}{P_{\text{sat}}(30^\circ\text{C})} \times 100,%,,,,549,3485,4034,1,thermodynamics,0.042918,0,0,1
+2026-04-24-20-03-16,google/gemini-3.1-pro-preview,10,,,2.06,p_1 V_1 \ln\left(\frac{V_2}{V_1}\right),kJ,,,,559,2177,2736,1,thermodynamics,0.027242,1,0,1
+2026-04-24-20-03-35,google/gemini-3.1-pro-preview,11,,,0.23,h_o \frac{d_i}{d_o},mm,,,,537,1934,2471,1,optics,0.024282,0,0,1
+2026-04-24-20-03-43,google/gemini-3.1-pro-preview,12,,,-40,-\frac{f_o}{f_e},1,,,,529,578,1107,1,optics,0.007994,1,0,1
+2026-04-24-20-08-30,google/gemini-3.1-pro-preview,13,,,,\frac{\pi}{3},rad,,,,547,7408,7955,1,optics,0.08999,0,0,0
+2026-04-24-20-09-12,google/gemini-3.1-pro-preview,14,,,10,\frac{n(d - 2h)}{2},cm,,,,561,4838,5399,1,optics,0.059178,1,0,1
+2026-04-24-20-09-39,google/gemini-3.1-pro-preview,15,,,600.42,a \sin \theta,nm,,,,532,1666,2198,1,optics,0.021056,0,0,1
+2026-04-24-20-10-17,google/gemini-3.1-pro-preview,16,,,0.83,\frac{\pi}{q} \sqrt{\frac{\pi \varepsilon_0 m l^3}{2}},s,,,,588,5062,5650,1,electrostatics,0.06192,1,0,1
+2026-04-24-20-10-30,google/gemini-3.1-pro-preview,17,,,94.87,\sqrt{\frac{q}{4 \pi \varepsilon_0 E}},m,,,,555,1372,1927,1,electrostatics,0.017574,0,0,1
+2026-04-24-20-10-55,google/gemini-3.1-pro-preview,18,,,2.84,\frac{m v^2}{2 e E},cm,,,,555,3155,3710,1,electrostatics,0.03897,0,0,1
+2026-04-24-20-11-34,google/gemini-3.1-pro-preview,19,,,0.4,\frac{2}{\varepsilon + 1},1,,,,560,2420,2980,1,electrostatics,0.03016,1,0,1
+2026-04-24-20-11-55,google/gemini-3.1-pro-preview,20,,,,v_0 < \sqrt{\frac{q Q}{2 \pi \epsilon_0 m r_0}},m/s,,,,567,2762,3329,1,electrostatics,0.034278,1,0,0
+2026-04-24-20-12-25,google/gemini-3.1-pro-preview,21,,,3,\left( \frac{1}{4} - \frac{k}{R d \sin \phi} \right)^{-1/2},1,,,,612,4102,4714,1,nuclear,0.050448,0,0,1
+2026-04-24-20-12-52,google/gemini-3.1-pro-preview,22,,,26.87,\frac{P t m_0}{\eta E},kg,,,,597,3180,3777,1,nuclear,0.039354,0,0,1
+2026-04-24-20-13-19,google/gemini-3.1-pro-preview,23,,,41.6,\frac{t \ln 2}{\ln \left( \frac{\Delta n_0}{\Delta n} \right)},min,,,,578,3456,4034,1,nuclear,0.042628,0,0,1
+2026-04-24-20-13-34,google/gemini-3.1-pro-preview,24,,,35.48,m_1 p_1 + m_2 p_2,g/mol,,,,587,1771,2358,1,nuclear,0.022426,0,0,1
+2026-04-24-20-13-46,google/gemini-3.1-pro-preview,25,,,1.24,\frac{hc}{\lambda},MeV,,,,548,1391,1939,1,nuclear,0.017788,1,1,1
+2026-04-23-14-30-20,google/gemma-4-31b-it,1,,,1000,\sqrt{al},m/s,,,,563,46,609,1,mechanics,9.72E-05,1,0,1
+2026-04-23-14-30-30,google/gemma-4-31b-it,2,,,-1.2,v_{cp} = \frac{x(t_2) - x(t_1)}{t_2 - t_1},m/s,,,,576,70,646,1,mechanics,0.00010834,0,0,1
+2026-04-23-14-30-32,google/gemma-4-31b-it,3,,,0.32,\frac{d v_T}{v_T^2 + v_C^2},h,,,,557,57,614,1,mechanics,9.41E-05,0,0,1
+2026-04-23-14-30-56,google/gemma-4-31b-it,4,,,103.13,\theta = \arccos\left(\frac{\vec{v} \cdot \vec{a}}{|\vec{v}| |\vec{a}|}\right),1,,,,628,73,701,1,mechanics,0.00010938,0,0,0
+2026-04-23-14-31-02,google/gemma-4-31b-it,5,,,16,rac{\Delta K}{\Delta t} = rac{ rac{1}{2}mv^2}{t},W,,,,582,60,642,1,mechanics,0.0001464,0,0,0
+2026-04-23-14-31-08,google/gemma-4-31b-it,6,,,11.73,\frac{N m v_{rms}^2}{2 A},N/m,,,,605,51,656,1,thermodynamics,9.80E-05,0,0,1
+2026-04-23-14-31-14,google/gemma-4-31b-it,7,,,1.21,\frac{m}{M} R T \ln\left(\frac{V_2}{V_1}\right),kJ,,,,558,64,622,1,thermodynamics,9.69E-05,0,0,1
+2026-04-23-14-31-19,google/gemma-4-31b-it,8,,,5.43,\frac{\rho g}{\rho_{air}} \left( \frac{V_2 T_1}{V_1 T_2} - 1 \right) \approx \frac{P_{atm}}{\rho g} \left( \frac{V_2 T_1}{V_1 T_2} - 1 \right),m,,,,562,114,676,1,thermodynamics,0.0001694,0,0,1
+2026-04-23-14-31-27,google/gemma-4-31b-it,9,,,42.5,\phi = \frac{P_{sat}(T_{dew})}{P_{sat}(T_{air})} \times 100\%,1,,,,561,64,625,1,thermodynamics,9.73E-05,0,0,0
+2026-04-23-14-31-31,google/gemma-4-31b-it,10,,,2.02,p_1 V_1 \ln\left(\frac{V_2}{V_1}\right),kJ,,,,571,60,631,1,thermodynamics,9.70E-05,0,0,1
+2026-04-23-14-31-40,google/gemma-4-31b-it,11,,,0.07,h_o \frac{d_i}{d_o},mm,,,,549,53,602,1,optics,0.0001363,0,0,1
+2026-04-23-14-31-50,google/gemma-4-31b-it,12,,,40,\frac{f_{obj}}{f_{eye}},1,,,,541,47,588,1,optics,8.82E-05,0,0,1
+2026-04-23-14-32-00,google/gemma-4-31b-it,13,,,45,45^\circ,deg,,,,559,39,598,1,optics,9.39E-05,0,0,0
+2026-04-23-14-32-03,google/gemma-4-31b-it,14,,,15,d - h(1 + \frac{1}{n^2}),cm,,,,573,51,624,1,optics,9.39E-05,0,0,1
+2026-04-23-14-32-09,google/gemma-4-31b-it,15,,,600.42,\lambda = a \sin(\theta),nm,,,,544,45,589,1,optics,0.0001313,0,0,1
+2026-04-23-14-32-14,google/gemma-4-31b-it,16,,,0.11,2\pi \sqrt{\frac{m l^3}{8 k q^2}},s,,,,600,60,660,1,electrostatics,0.0001008,0,0,1
+2026-04-23-14-32-16,google/gemma-4-31b-it,17,,,113000,\frac{q}{4\pi\epsilon_0 E},m,,,,567,53,620,1,electrostatics,9.39E-05,0,0,1
+2026-04-23-14-32-28,google/gemma-4-31b-it,18,,,28.1,\frac{m v^2}{2 e E},cm,,,,567,49,616,1,electrostatics,9.90E-05,0,0,1
+2026-04-23-14-32-31,google/gemma-4-31b-it,19,,,0.8,\frac{E_2}{E_1} = \frac{4}{5},1,,,,572,52,624,1,electrostatics,0.00010088,0,0,1
+2026-04-23-14-32-35,google/gemma-4-31b-it,20,,,,v_0 > \sqrt{\frac{2kQq}{mr_0}},m/s,,,,579,52,631,1,electrostatics,0.00010186,1,0,0
+2026-04-23-14-32-38,google/gemma-4-31b-it,21,,,4,4,1,,,,624,37,661,1,nuclear,0.0001433,0,0,1
+2026-04-23-14-32-46,google/gemma-4-31b-it,22,,,11.74,\frac{P \cdot t}{n \cdot E} \cdot m_0,kg,,,,609,57,666,1,nuclear,0.00010806,0,0,1
+2026-04-23-14-32-54,google/gemma-4-31b-it,23,,,36.4,T_{1/2} = \frac{t \cdot \ln 2}{\ln(\Delta n_0 / \Delta n)},min,,,,590,65,655,1,nuclear,0.0001158,0,0,1
+2026-04-23-14-33-02,google/gemma-4-31b-it,24,,,35.45,(0.758 \times 35) + (0.242 \times 37),g/mol,,,,599,65,664,1,nuclear,0.0001523,0,0,1
+2026-04-23-14-33-15,google/gemma-4-31b-it,25,,,1.24,\frac{hc}{\lambda},MeV,,,,560,51,611,1,nuclear,9.88E-05,1,1,1
+2026-04-26-08-22-44,meta-llama/llama-4-maverick,1,,,44.72,\sqrt{2al},m/s,,,,498,34,532,1,mechanics,9.51E-05,0,0,1
+2026-04-26-08-22-46,meta-llama/llama-4-maverick,2,,,3,\frac{A(t_2 - t_1) + B(t_2^3 - t_1^3)}{t_2 - t_1},m/s,,,,513,61,574,1,mechanics,0.0001044,0,0,1
+2026-04-26-08-22-48,meta-llama/llama-4-maverick,3,,,0.26,\frac{32}{\sqrt{80^2+50^2}},h,,,,494,45,539,1,mechanics,0.0001011,0,0,1
+2026-04-26-08-22-49,meta-llama/llama-4-maverick,4,,,1.26,$\sqrt{5}$,m/s^2,,,,627,42,669,1,mechanics,0.00024993,0,0,0
+2026-04-26-08-22-52,meta-llama/llama-4-maverick,5,,,160,\mu mgv = mav = m\frac{v_i^2}{2t},W,,,,521,47,568,1,mechanics,0.00018062,1,0,0
+2026-04-26-08-22-54,meta-llama/llama-4-maverick,6,,,38.3,\frac{N m v_{rms}^2}{3 L^2},N/m,,,,542,43,585,1,thermodynamics,0.00018289,0,0,1
+2026-04-26-08-22-56,meta-llama/llama-4-maverick,7,,,8.63,\frac{m}{M}RT\ln\left(\frac{V_f}{V_i}\right),kJ,,,,494,50,544,1,thermodynamics,0.0001041,0,0,1
+2026-04-26-08-22-59,meta-llama/llama-4-maverick,8,,,7.16,\frac{P_0 (1.8)}{\rho g} \left(\frac{T_b}{T_t}\right) - \frac{P_0}{\rho g},m,,,,502,68,570,1,thermodynamics,0.0001161,0,0,1
+2026-04-26-08-23-01,meta-llama/llama-4-maverick,9,,,0.54,\frac{P_{sat}(15°C)}{P_{sat}(30°C)},1,,,,499,39,538,1,thermodynamics,9.83E-05,0,0,0
+2026-04-26-08-23-04,meta-llama/llama-4-maverick,10,,,2.06,p_{1}V_{1}\ln{\frac{V_{2}}{V_{1}}},kJ,,,,505,50,555,1,thermodynamics,0.00017885,1,0,1
+2026-04-26-08-23-07,meta-llama/llama-4-maverick,11,,,0.01,\frac{3.50 \times 10^{-3} \times 0.017}{0.300},m,,,,489,52,541,1,optics,0.00010455,0,0,0
+2026-04-26-08-23-09,meta-llama/llama-4-maverick,12,,,-40,-\frac{f_{objective}}{f_{eyepiece}},1,,,,481,38,519,1,optics,0.00037143,1,0,1
+2026-04-26-08-23-11,meta-llama/llama-4-maverick,13,,,60,\boxed{60},1,,,,496,25,521,1,optics,0.00015517,1,0,0
+2026-04-26-08-23-13,meta-llama/llama-4-maverick,14,,,0.2,\frac{d-h}{n},m,,,,510,34,544,1,optics,0.0001666,0,0,0
+2026-04-26-08-23-15,meta-llama/llama-4-maverick,15,,,600,\lambda = \frac{a \sin(\theta)}{1},nm,,,,553,39,592,1,optics,0.00021815,1,0,1
+2026-04-26-08-23-18,meta-llama/llama-4-maverick,16,,,0.63,2\pi\sqrt{\frac{\pi\varepsilon_0ml^3}{2q^2}},s,,,,534,53,587,1,electrostatics,0.0001119,0,0,1
+2026-04-26-08-23-20,meta-llama/llama-4-maverick,17,,,9,\frac{q}{4\pi\varepsilon_0 E},m,,,,501,41,542,1,electrostatics,9.98E-05,0,0,1
+2026-04-26-08-23-23,meta-llama/llama-4-maverick,18,,,0.03,$\frac{mv_0^2}{2eE}$,m,,,,499,43,542,1,electrostatics,0.00010065,0,0,0
+2026-04-26-08-23-26,meta-llama/llama-4-maverick,19,,,2,\frac{2}{1 + \frac{1}{\varepsilon}},1,,,,502,41,543,1,electrostatics,0.00017039,0,0,1
+2026-04-26-08-23-28,meta-llama/llama-4-maverick,20,,,,\frac{1}{2} m v_{0}^{2} > \frac{q Q}{4 \pi \epsilon_{0} r_{0}},1,,,,518,56,574,1,electrostatics,0.00042714,1,0,0
+2026-04-26-08-23-30,meta-llama/llama-4-maverick,21,,,3,\sqrt{\frac{\lambda_R}{\lambda} + 4},1,,,,622,45,667,1,nuclear,0.0002483,0,0,1
+2026-04-26-08-23-33,meta-llama/llama-4-maverick,22,,,31.03,\frac{P t}{\eta E},kg,,,,538,36,574,1,nuclear,0.00017586,0,0,1
+2026-04-26-08-23-36,meta-llama/llama-4-maverick,23,,,45,T_{1/2} = \frac{t \ln(2)}{\ln\left(\frac{\Delta n_0}{\Delta n}\right)},min,,,,524,62,586,1,nuclear,0.0001158,0,0,1
+2026-04-26-08-23-38,meta-llama/llama-4-maverick,24,,,35.48,0.758 \times 35 + 0.242 \times 37,g/mol,,,,531,41,572,1,nuclear,0.00010425,0,0,1
+2026-04-26-08-23-41,meta-llama/llama-4-maverick,25,,,1.24,h\nu = \frac{hc}{\lambda},MeV,,,,500,43,543,1,nuclear,0.0001008,1,0,1
+2026-04-26-10-27-14,microsoft/phi-4,1,,,2.83,\sqrt{2al},m/s,,,,523,45,568,1,mechanics,4.29E-05,0,0,1
+2026-04-26-10-27-17,microsoft/phi-4,2,,,3,x = A t + rac{B t^3}{3},m,,,,612,44,656,1,mechanics,4.59E-05,0,0,0
+2026-04-26-10-27-19,microsoft/phi-4,3,,,0.32,\frac{32 \times 50}{\sqrt{80^2 + 50^2}},1,,,,482,55,537,1,mechanics,4.14E-05,0,0,0
+2026-04-26-10-27-21,microsoft/phi-4,4,,,2.36,\cos^{-1}\left(\frac{1}{\sqrt{5}}\right),1,,,,584,54,638,1,mechanics,4.84E-05,0,0,0
+2026-04-26-10-27-23,microsoft/phi-4,5,,,160,m \cdot a,W,,,,510,34,544,1,mechanics,4.05E-05,1,0,0
+2026-04-26-10-27-25,microsoft/phi-4,6,,,0.05,\frac{2 n m \langle v^2 \rangle}{L + W},N/m,,,,531,50,581,1,thermodynamics,4.42E-05,0,0,1
+2026-04-26-10-27-33,microsoft/phi-4,7,,,0.01,nRT \ln\left(\frac{V_f}{V_i}\right),kJ,,,,515,50,565,1,thermodynamics,4.31E-05,0,0,1
+2026-04-26-10-27-35,microsoft/phi-4,8,,,9.8,\frac{R T_2}{g} \left( \frac{V_2}{V_1} - 1 \right),m,,,,490,63,553,1,thermodynamics,4.31E-05,0,0,1
+2026-04-26-10-27-42,microsoft/phi-4,9,,,0.62,\frac{e_{15}}{e_{30} - e_{15}},1,,,,487,501,988,1,thermodynamics,0.00010423,0,0,0
+2026-04-26-10-27-44,microsoft/phi-4,10,,,4.6,nRT \ln\left( rac{V_2}{V_1} ight),kJ,,,,516,52,568,1,thermodynamics,4.34E-05,0,0,1
+2026-04-26-10-27-48,microsoft/phi-4,11,,,0.17,h' = \frac{h \cdot f}{d},mm,,,,477,214,691,1,optics,6.34E-05,0,0,1
+2026-04-26-10-27-50,microsoft/phi-4,12,,,50,\frac{f_{\text{objective}}}{f_{\text{eyepiece}}},1,,,,469,49,518,1,optics,3.97E-05,0,0,1
+2026-04-26-10-27-52,microsoft/phi-4,13,,,60,\phi = 60^\circ,1,,,,546,37,583,1,optics,4.34E-05,1,0,0
+2026-04-26-10-27-54,microsoft/phi-4,14,,,20,d - 2h,cm,,,,559,37,596,1,optics,4.43E-05,0,0,1
+2026-04-26-10-27-57,microsoft/phi-4,15,,,532.5,a \sin heta = m \lambda,m,,,,474,41,515,1,optics,3.89E-05,0,0,0
+2026-04-26-10-27-59,microsoft/phi-4,16,,,0.14,2\pi \sqrt{\frac{m}{k}},s,,,,577,45,622,1,electrostatics,4.67E-05,0,0,1
+2026-04-26-10-28-01,microsoft/phi-4,17,,,0.9,\sqrt{\frac{1}{4 \pi \varepsilon_0} \cdot \frac{q}{E}},m,,,,536,61,597,1,electrostatics,4.61E-05,0,0,1
+2026-04-26-10-28-03,microsoft/phi-4,18,,,0.11,\frac{m v^2}{2 e E},m,,,,533,46,579,1,electrostatics,4.38E-05,0,0,0
+2026-04-26-10-28-05,microsoft/phi-4,19,,,0.25,\frac{1}{\epsilon},1,,,,553,38,591,1,electrostatics,4.40E-05,0,0,1
+2026-04-26-10-28-13,microsoft/phi-4,20,,,,v_0^2 \geq 0,1,,,,510,39,549,1,electrostatics,4.12E-05,1,0,0
+2026-04-26-10-28-15,microsoft/phi-4,21,,,3,\sqrt{\frac{hc}{d \cdot \sin(\phi) \cdot R_H \cdot (1 - \frac{1}{4})}},1,,,,639,66,705,1,nuclear,5.40E-05,0,0,1
+2026-04-26-10-28-17,microsoft/phi-4,22,,,1.5,\frac{P \times t}{n \times E},kg,,,,576,43,619,1,nuclear,4.63E-05,0,0,1
+2026-04-26-10-28-19,microsoft/phi-4,23,,,0.693,"T = rac{t}{\ln\left( rac{n_0}{n}
+ ight)}",s,,,,660,53,713,1,nuclear,5.03E-05,0,0,0
+2026-04-26-10-28-27,microsoft/phi-4,24,,,35.45,0.758 imes 35 + 0.242 imes 37,g/mol,,,,520,49,569,1,nuclear,4.33E-05,0,0,1
+2026-04-26-10-28-29,microsoft/phi-4,25,,,1.24,\frac{hc}{\lambda},MeV,,,,489,47,536,1,nuclear,4.08E-05,1,1,1
+2026-04-24-19-52-33,mistralai/ministral-14b-2512,1,,,2,\sqrt{\frac{2l a}{1}},m/s,,,,536,43,579,1,mechanics,0.0001158,0,0,1
+2026-04-24-19-52-39,mistralai/ministral-14b-2512,2,,,12.5,\frac{x(t_2) - x(t_1)}{t_2 - t_1} = \frac{A(t_2 - t_1) + B(t_2^3 - t_1^3)}{t_2 - t_1} = A + B\frac{t_2^3 - t_1^3}{t_2 - t_1},m/s,,,,546,114,660,1,mechanics,0.0003353,0,0,1
+2026-04-24-19-52-41,mistralai/ministral-14b-2512,3,,,0.48,\frac{32}{\sqrt{80^2 + 50^2}},h,,,,518,52,570,1,mechanics,0.000114,0,0,1
+2026-04-24-19-52-52,mistralai/ministral-14b-2512,4,,,,"\text{Ускорение } \vec{a} = (2y_1, 2y_2) = (-2\,\mathrm{м/с}^2, 4\,\mathrm{м/с}^2). \\ \\ \text{Угол } \theta \text{ между скоростью и ускорением в момент } t=1\,\mathrm{с}: \\ \\ \cos\theta = \frac{\vec{v} \cdot \vec{a}}{|\vec{v}| |\vec{a}|}, \\ \\ \text{где } \vec{v} = (b_1 + 2y_1 t, b_2 + 2y_2 t) = (0, 5)\,\mathrm{м/с}, \\ \\ \vec{a} = (-2, 4)\,\mathrm{м/с}^2, \\ \\ \cos\theta = \frac{0 \cdot (-2) + 5 \cdot 4}{\sqrt{0^2 + 5^2} \cdot \sqrt{(-2)^2 + 4^2}} = \frac{20}{5 \cdot \sqrt{20}} = \frac{20}{5 \cdot 2\sqrt{5}} = \frac{2}{\sqrt{5}}, \\ \\ \theta = \arccos\left(\frac{2}{\sqrt{5}}\right) \approx 26.565\degree.",м/с^2,,,,594,364,958,1,mechanics,0.0003353,0,0,0
+2026-04-24-19-52-54,mistralai/ministral-14b-2512,5,,,160,\frac{1}{2}mv^2 / t,W,,,,546,44,590,1,mechanics,0.0002065,1,0,0
+2026-04-24-19-52-57,mistralai/ministral-14b-2512,6,,,1.25,\frac{1}{2} \frac{N m_{\text{car}} v_{\text{rms}}}{L},N/m,,,,571,59,630,1,thermodynamics,0.0002205,0,0,1
+2026-04-24-19-52-58,mistralai/ministral-14b-2512,7,,,17290,nRT \ln\left(\frac{V_2}{V_1}\right),J,,,,525,57,582,1,thermodynamics,0.0001164,0,0,0
+2026-04-24-19-53-00,mistralai/ministral-14b-2512,8,,,8.2,\frac{R \cdot (T_2 - T_1)}{g \cdot \alpha \cdot \Delta V / V_1},m,,,,525,67,592,1,thermodynamics,0.0001184,0,0,1
+2026-04-24-19-53-02,mistralai/ministral-14b-2512,9,,,0.58,"\frac{P_{\text{sat}}(15\,\text{°C})}{P_{\text{sat}}(30\,\text{°C})}",1,,,,522,70,592,1,thermodynamics,0.0001184,0,0,0
+2026-04-24-19-53-04,mistralai/ministral-14b-2512,10,,,5600,p_1 V_1 \ln{\left( rac{V_2}{V_1} ight)},J,,,,538,58,596,1,thermodynamics,0.0001192,0,0,0
+2026-04-24-19-53-06,mistralai/ministral-14b-2512,11,,,0.01,h' = h \cdot \frac{f}{d_o},m,,,,512,62,574,1,optics,0.0002009,0,0,0
+2026-04-24-19-53-08,mistralai/ministral-14b-2512,12,,,40,rac{f_{ ext{obj}}}{f_{ ext{eye}}},1,,,,504,48,552,1,optics,0.0001104,0,0,1
+2026-04-24-19-53-09,mistralai/ministral-14b-2512,13,,,90,\phi = 90^{\circ},1,,,,536,40,576,1,optics,0.0001152,0,0,0
+2026-04-24-19-53-12,mistralai/ministral-14b-2512,14,,,20,d + h - \frac{h}{n},m,,,,554,43,597,1,optics,0.00020895,0,0,0
+2026-04-24-19-53-13,mistralai/ministral-14b-2512,15,,,500,a \sin(\theta) = \lambda,m,,,,510,43,553,1,optics,0.0001106,0,0,0
+2026-04-24-19-53-15,mistralai/ministral-14b-2512,16,,,0,2\pi \sqrt{ rac{m l^3}{2 q^2 k_e}},s,,,,578,71,649,1,electrostatics,0.0001298,0,0,1
+2026-04-24-19-53-17,mistralai/ministral-14b-2512,17,,,900000000,\frac{1}{4 \pi \varepsilon_0} \frac{q}{E},m,,,,538,53,591,1,electrostatics,0.00020685,0,0,1
+2026-04-24-19-53-19,mistralai/ministral-14b-2512,18,,,0,\frac{m_e v_0^2}{2 e E},m,,,,540,62,602,1,electrostatics,0.0001204,0,0,0
+2026-04-24-19-53-21,mistralai/ministral-14b-2512,19,,,1,\frac{E_0}{\epsilon},1,,,,546,38,584,1,electrostatics,0.0002044,0,0,1
+2026-04-24-19-53-23,mistralai/ministral-14b-2512,20,,,,v_0 > \sqrt{ rac{2kQq}{mr_0}},m/s,,,,549,49,598,1,electrostatics,0.0001196,1,0,0
+2026-04-24-19-53-26,mistralai/ministral-14b-2512,21,,,5,\left\lfloor \frac{R_H}{R_H - \frac{hc}{d \cdot \sin(\phi) \cdot \left(\frac{1}{2^2} - \frac{1}{2^2}\right)}} \right\rfloor + 2,1,,,,603,275,878,1,nuclear,0.0001756,1,0,1
+2026-04-24-19-53-28,mistralai/ministral-14b-2512,22,,,0,\frac{P \cdot t \cdot \eta}{E},kg,,,,584,62,646,1,nuclear,0.0001292,0,0,1
+2026-04-24-19-53-30,mistralai/ministral-14b-2512,23,,,20.32,T_{1/2} = \frac{t \ln(2)}{-\ln\left(\frac{\delta(n)}{\delta(n_0)}\right)},min,,,,568,72,640,1,nuclear,0.000128,0,0,1
+2026-04-24-19-53-32,mistralai/ministral-14b-2512,24,,,35.45,M_{ ext{avg}} = (0.758 imes 35) + (0.242 imes 37),g/mol,,,,561,68,629,1,nuclear,0.0001258,0,0,1
+2026-04-24-19-53-34,mistralai/ministral-14b-2512,25,,,1239841.93,"\frac{hc}{\lambda} = \frac{(6.62607015 \times 10^{-34} \,\mathrm{J\cdot s})(2.99792458 \times 10^8 \,\mathrm{m/s})}{1 \times 10^{-12} \,\mathrm{m}} \times \frac{1 \,\mathrm{MeV}}{1.602176634 \times 10^{-13} \,\mathrm{J}}",MeV,,,,523,165,688,1,nuclear,0.0001376,0,0,1
+2026-04-23-17-45-52,mistralai/pixtral-large-2411,1,,,447.21,\sqrt{a \cdot l},m/s,,,,651,53,704,1,mechanics,0.00162,0,0,1
+2026-04-23-17-45-57,mistralai/pixtral-large-2411,2,,,5.5,\frac{\Delta x}{\Delta t} = \frac{x(t_2) - x(t_1)}{t_2 - t_1},m/s,,,,659,73,732,1,mechanics,0.002662,0,0,1
+2026-04-23-17-45-59,mistralai/pixtral-large-2411,3,,,0.56,\frac{32}{\sqrt{80^2 + 50^2}},h,,,,623,57,680,1,mechanics,0.001588,0,0,1
+2026-04-23-17-46-04,mistralai/pixtral-large-2411,4,,,,"\mathbf{a} = \begin{pmatrix} 2y_1 t \ 2y_2 t \end{pmatrix} = \begin{pmatrix} -2t \\ 4t \end{pmatrix}, \quad \theta = \arccos\left(\frac{\mathbf{v} \cdot \mathbf{a}}{|\mathbf{v}||\mathbf{a}|}\right), \quad \mathbf{v} = \begin{pmatrix} b_1 + 2y_1 t \\ b_2 + 2y_2 t \end{pmatrix} = \begin{pmatrix} 1 - 2t \\ 1 + 4t \end{pmatrix}",m/s^2,,,,714,194,908,1,mechanics,0.002592,0,0,0
+2026-04-23-17-46-06,mistralai/pixtral-large-2411,5,,,3200,\frac{1}{2} m v^2 / t,W,,,,650,50,700,1,mechanics,0.0016,0,0,0
+2026-04-23-17-46-09,mistralai/pixtral-large-2411,6,,,10.93,\frac{8 \cdot 322 \cdot (2.50)^2}{2 \cdot (2 \cdot 21.0 + 2 \cdot 13.0)},N/m,,,,683,83,766,1,thermodynamics,0.001864,0,0,1
+2026-04-23-17-46-11,mistralai/pixtral-large-2411,7,,,1.8,nRT \ln{\left(\frac{V_f}{V_i}\right)},J,,,,645,59,704,1,thermodynamics,0.001644,0,0,0
+2026-04-23-17-46-13,mistralai/pixtral-large-2411,8,,,100,\frac{P_0}{\rho g} \left( \frac{V_f}{V_i} - 1 \right),m,,,,630,68,698,1,thermodynamics,0.001668,0,0,1
+2026-04-23-17-46-16,mistralai/pixtral-large-2411,9,,,0.5,\frac{e_{s}(15^{\circ}C)}{e_{s}(30^{\circ}C)},1,,,,630,63,693,1,thermodynamics,0.001638,0,0,0
+2026-04-23-17-46-18,mistralai/pixtral-large-2411,10,,,3.5,nRT\ln{\left(\frac{V_2}{V_1}\right)},kJ,,,,650,58,708,1,thermodynamics,0.001648,0,0,1
+2026-04-23-17-46-21,mistralai/pixtral-large-2411,11,,,0.12,\frac{h_o}{h_i} = \frac{d}{f_e} \rightarrow h_i = \frac{h_o f_e}{d},m,,,,617,77,694,1,optics,0.001696,0,0,0
+2026-04-23-17-46-23,mistralai/pixtral-large-2411,12,,,40,\frac{f_o}{f_e},1,,,,611,45,656,1,optics,0.001492,0,0,1
+2026-04-23-17-46-25,mistralai/pixtral-large-2411,13,,,60,\phi = 60^{\circ},1,,,,661,44,705,1,optics,0.001586,1,0,0
+2026-04-23-17-46-28,mistralai/pixtral-large-2411,14,,,20,\frac{d}{2} + h,cm,,,,678,46,724,1,optics,0.001632,0,0,1
+2026-04-23-17-46-30,mistralai/pixtral-large-2411,15,,,500,\lambda = \frac{a \sin{\theta}}{m},nm,,,,617,50,667,1,optics,0.001534,0,0,1
+2026-04-23-17-46-32,mistralai/pixtral-large-2411,16,,,0.34,2\pi\sqrt{\frac{m l^3}{3 k q^2}},s,,,,707,57,764,1,electrostatics,0.001756,0,0,1
+2026-04-23-17-46-35,mistralai/pixtral-large-2411,17,,,0.09,\sqrt{\frac{q}{4 \pi \epsilon_0 E}},m,,,,661,54,715,1,electrostatics,0.001646,0,0,1
+2026-04-23-17-46-37,mistralai/pixtral-large-2411,18,,,0.01,\frac{m v^2}{2 e E},m,,,,659,50,709,1,electrostatics,0.001618,0,0,0
+2026-04-23-17-46-39,mistralai/pixtral-large-2411,19,,,4,\epsilon,1,,,,670,36,706,1,electrostatics,0.001556,0,0,1
+2026-04-23-17-46-41,mistralai/pixtral-large-2411,20,,,,v_0 > \sqrt{\frac{2kQq}{m r_0}},m/s,,,,655,55,710,1,electrostatics,0.00164,1,0,0
+2026-04-23-17-46-45,mistralai/pixtral-large-2411,21,,,4,\sqrt{\frac{8 \cdot 6.626 \cdot 10^{-34} \cdot 3 \cdot 10^8}{1.6 \cdot 10^{-19} \cdot 2.6 \cdot 10^{-6} \cdot \sin(30^\circ)}},1,,,,744,108,852,1,nuclear,0.002136,0,0,1
+2026-04-23-17-46-47,mistralai/pixtral-large-2411,22,,,0,\frac{P \cdot t}{\eta \cdot E} \cdot m_0,kg,,,,710,58,768,1,nuclear,0.001768,0,0,1
+2026-04-23-17-46-49,mistralai/pixtral-large-2411,23,,,28.96,T_{1/2} = \frac{t}{\ln{\left(\frac{N_0}{N}\right)}},min,,,,693,67,760,1,nuclear,0.001788,0,0,1
+2026-04-23-17-46-52,mistralai/pixtral-large-2411,24,,,35.45,0.758 imes 35 + 0.242 imes 37,g/mol,,,,674,64,738,1,nuclear,0.001732,0,0,1
+2026-04-23-17-46-54,mistralai/pixtral-large-2411,25,,,1.24,\frac{hc}{\lambda},MeV,,,,633,47,680,1,nuclear,0.001548,1,1,1
+2026-04-23-12-48-45,moonshotai/kimi-k2.5,1,,,1000,\sqrt{la},m/s,,,,527,2661,3188,1,mechanics,0.0082992,1,0,1
+2026-04-23-12-52-28,moonshotai/kimi-k2.5,2,,,-0.5,-\frac{1}{2},m/s,,,,531,3577,4108,1,mechanics,0.01596645,1,0,1
+2026-04-23-12-59-38,moonshotai/kimi-k2.5,3,,,0.29,\frac{128}{445},h,,,,493,4832,5325,1,mechanics,0.01084732,1,0,1
+2026-04-23-13-01-57,moonshotai/kimi-k2.5,4,,,0.27,\arctan\left(\frac{3}{11}\right),rad,,,,589,7154,7743,1,mechanics,0.0218114,0,0,0
+2026-04-23-13-03-50,moonshotai/kimi-k2.5,5,,,160,\frac{m v^2}{2 t},W,,,,540,3398,3938,1,mechanics,0.0097844,1,0,0
+2026-04-23-13-08-39,moonshotai/kimi-k2.5,6,,,29.5,\frac{N m v_{\text{rms}}^2}{2 L W},N/m,,,,544,8590,9134,1,thermodynamics,0.02174156,1,0,1
+2026-04-23-13-09-03,moonshotai/kimi-k2.5,7,,,6.48,\frac{m}{M}RT\ln 3,kJ,,,,536,4481,5017,1,thermodynamics,0.01485805,0,0,1
+2026-04-23-13-11-24,moonshotai/kimi-k2.5,8,,,7.9,\frac{P_{\text{atm}}}{\rho g} \left( 1.8 \times \frac{277.15}{283.15} - 1 \right),m,,,,501,6053,6554,1,thermodynamics,0.0138447,1,0,1
+2026-04-23-13-13-33,moonshotai/kimi-k2.5,9,,,0.4,\frac{p_{\text{sat}}(15^{\circ}\text{C})}{p_{\text{sat}}(30^{\circ}\text{C})},1,,,,498,4488,4986,1,thermodynamics,0.0137613,0,0,0
+2026-04-23-13-13-35,moonshotai/kimi-k2.5,10,,,1.96,p_1 V_1 \ln\frac{V_2}{V_1},kJ,,,,524,35,559,1,thermodynamics,0.0004194,0,0,1
+2026-04-23-13-15-38,moonshotai/kimi-k2.5,11,,,0.23,3.50 \times \frac{2.00}{30.0},mm,,,,488,4644,5132,1,optics,0.0142233,0,0,1
+2026-04-23-13-17-25,moonshotai/kimi-k2.5,12,,,-40,-\frac{100}{2.50},1,,,,479,3572,4051,1,optics,0.00916471,1,0,1
+2026-04-23-13-29-01,moonshotai/kimi-k2.5,13,,,,\frac{\pi}{3},rad,,,,539,13142,13681,1,optics,0.02981205,0,0,0
+2026-04-23-13-31-15,moonshotai/kimi-k2.5,14,,,0.1,\frac{n(d-2h)}{2},m,,,,545,6241,6786,1,optics,0.0142875,0,0,0
+2026-04-23-13-31-17,moonshotai/kimi-k2.5,15,,,600,a \sin(\theta) = m\lambda \implies \lambda = a \sin(\theta) = (1.00 \times 10^{-6} \text{ m}) \sin(36.9°),nm,,,,487,74,561,1,optics,0.0005142,1,0,1
+2026-04-23-13-34-15,moonshotai/kimi-k2.5,16,,,0.83,2\pi\sqrt{\frac{m l^3}{32 k q^2}},s,,,,580,6561,7141,1,electrostatics,0.0200295,1,0,1
+2026-04-23-13-34-50,moonshotai/kimi-k2.5,17,,,94.87,\sqrt{\frac{q}{4\pi\varepsilon_0 E}},m,,,,548,4474,5022,1,electrostatics,0.0148419,0,0,1
+2026-04-23-13-37-43,moonshotai/kimi-k2.5,18,,,2.84,\frac{m v^{2}}{2 e E},cm,,,,535,5839,6374,1,electrostatics,0.0169461,0,0,1
+2026-04-23-13-39-32,moonshotai/kimi-k2.5,19,,,0.4,\frac{2}{5},1,,,,542,4001,4543,1,electrostatics,0.01171179,1,0,1
+2026-04-23-13-45-29,moonshotai/kimi-k2.5,20,,,,v_0 \geq \sqrt{\frac{Qq}{2\pi\varepsilon_0 m r_0}},m/s,,,,521,7026,7547,1,electrostatics,0.01601863,1,0,0
+2026-04-23-13-51-59,moonshotai/kimi-k2.5,21,,,3,\frac{1}{\sqrt{\frac{1}{4} - \frac{k}{d R \sin\varphi}}},1,,,,610,6436,7046,1,nuclear,0.019674,0,0,1
+2026-04-23-13-55-47,moonshotai/kimi-k2.5,22,,,26.9,"\frac{P \cdot 365 \cdot 24 \cdot 3600}{\eta \cdot E} = \frac{14{,}7 \cdot 10^{6} \cdot 3{,}1536 \cdot 10^{7}}{0{,}25 \cdot 6{,}9 \cdot 10^{13}} \approx 27",kg,,,,571,6570,7141,1,nuclear,0.0200526,1,0,1
+2026-04-23-14-00-37,moonshotai/kimi-k2.5,23,,,41.6,T_{1/2} = \dfrac{60 \ln 2}{\ln \dfrac{250}{92}},min,,,,566,9082,9648,1,nuclear,0.0206892,0,0,1
+2026-04-23-14-01-58,moonshotai/kimi-k2.5,24,,,0.04,(0.758 \times 35 + 0.242 \times 37) \times 10^{-3},kg/mol,,,,533,3972,4505,1,nuclear,0.00917685,0,0,0
+2026-04-23-14-08-10,moonshotai/kimi-k2.5,25,,,1.24,\frac{hc}{\lambda},MeV,,,,501,4302,4803,1,nuclear,0.0132066,1,1,1
+2026-04-29-17-04-15,moonshotai/kimi-k2.6,1,,,1000,\sqrt{l a},m/s,,,,526,2535,3061,1,mechanics,0.0106397,1,0,1
+2026-04-29-17-17-37,moonshotai/kimi-k2.6,2,,,-0.5,-\frac{1}{2},m/s,,,,532,5933,6465,1,mechanics,0.050873378,1,0,1
+2026-04-29-17-21-14,moonshotai/kimi-k2.6,3,,,1035.51,\frac{92160}{89},s,,,,493,6349,6842,1,mechanics,0.02974277,0,0,0
+2026-04-29-17-33-22,moonshotai/kimi-k2.6,4,,,0.27,\arctan\left(\frac{3}{11}\right),rad,,,,589,10837,11426,1,mechanics,0.050884922,0,0,0
+2026-04-29-17-34-58,moonshotai/kimi-k2.6,5,,,160,\frac{m v^2}{2 t},W,,,,522,2279,2801,1,mechanics,0.0083941,1,0,0
+2026-04-29-17-37-57,moonshotai/kimi-k2.6,6,,,29.5,\frac{N m v_{rms}^2}{2 L W},N/m,,,,544,6579,7123,1,thermodynamics,0.02686,1,0,1
+2026-04-29-17-44-02,moonshotai/kimi-k2.6,7,,,6.48,\frac{m}{M}RT\ln\frac{V_2}{V_1} = \frac{5\cdot10^{-3}}{2\cdot10^{-3}}\cdot8.31\cdot(273+11)\cdot\ln3 \approx 6.48,kJ,,,,518,8310,8828,1,thermodynamics,0.0294994,0,0,1
+2026-04-29-18-01-59,moonshotai/kimi-k2.6,8,,,7.88,\dfrac{P_{\text{atm}}}{\rho g}\left(\dfrac{V_{\text{top}}}{V_{\text{bottom}}}\dfrac{T_{\text{bottom}}}{T_{\text{top}}} - 1\right) = \dfrac{1.013\times10^{5}}{(1000)(9.80)}\left[1.8\left(\dfrac{277.15}{283.15}\right)-1\right],m,,,,501,20466,20967,1,thermodynamics,0.0720318,0,0,1
+2026-04-29-18-10-53,moonshotai/kimi-k2.6,9,,,0.4,\frac{p_{\text{sat}}(15^{\circ}\mathrm{C})}{p_{\text{sat}}(30^{\circ}\mathrm{C})},1,,,,498,8727,9225,1,thermodynamics,0.0308796,0,0,0
+2026-04-29-18-13-38,moonshotai/kimi-k2.6,10,,,2.06,2\ln 2.8,kJ,,,,522,5188,5710,1,thermodynamics,0.02443378,1,0,1
+2026-04-29-18-20-09,moonshotai/kimi-k2.6,11,,,0.23,h_o \frac{d_i}{d_o} = (3.50\ \mathrm{mm}) \frac{2.00\ \mathrm{cm}}{30.0\ \mathrm{cm}},mm,,,,487,9526,10013,1,optics,0.03856665,0,0,1
+2026-04-29-18-25-58,moonshotai/kimi-k2.6,12,,,-40,"-\frac{f_{\text{objective}}}{f_{\text{eyepiece}}} = -\frac{1.00\,\text{m}}{0.0250\,\text{m}} = -40",1,,,,479,4723,5202,1,optics,0.0169137,1,0,1
+2026-04-29-18-34-57,moonshotai/kimi-k2.6,13,,,1.05,\frac{\pi}{3},rad,,,,538,16680,17218,1,optics,0.0672311,0,0,0
+2026-04-29-18-40-42,moonshotai/kimi-k2.6,14,,,0.1,"\dfrac{n(d - 2h)}{2}, \quad n = \dfrac{4}{3}",m,,,,544,10346,10890,1,optics,0.0419008,0,0,0
+2026-04-29-18-46-38,moonshotai/kimi-k2.6,15,,,0,\lambda = a \sin(\theta),m,,,,485,5839,6324,1,optics,0.0208245,0,0,0
+2026-04-29-18-53-27,moonshotai/kimi-k2.6,16,,,0.83,\pi\sqrt{\dfrac{m l^3}{8kq^2}},s,,,,579,13966,14545,1,electrostatics,0.05641405,1,0,1
+2026-04-29-18-55-56,moonshotai/kimi-k2.6,17,,,94.8,\sqrt{\frac{q}{4\pi\varepsilon_0 E}},m,,,,530,3063,3593,1,electrostatics,0.0146675,0,0,1
+2026-04-29-18-56-58,moonshotai/kimi-k2.6,18,,,0.03,\frac{m_e v^2}{2 e E},m,,,,535,6058,6593,1,electrostatics,0.028598458,0,1,0
+2026-04-29-18-59-25,moonshotai/kimi-k2.6,19,,,0.4,\frac{2}{5},1,,,,541,4647,5188,1,electrostatics,0.01910195,1,0,1
+2026-04-29-19-01-49,moonshotai/kimi-k2.6,20,,,,v_0 \ge \sqrt{\frac{2Qq}{4\pi\varepsilon_0 m r_0}},m/s,,,,521,6972,7493,1,electrostatics,0.032842701,1,0,0
+2026-04-29-19-03-15,moonshotai/kimi-k2.6,21,,,3,3,1,,,,610,10272,10882,1,nuclear,0.0416675,0,0,1
+2026-04-29-19-06-38,moonshotai/kimi-k2.6,22,,,27,\frac{P t m_0}{n E},kg,,,,571,9589,10160,1,nuclear,0.03889845,0,0,1
+2026-04-29-19-21-47,moonshotai/kimi-k2.6,23,,,41.6,T_{1/2} = \frac{60 \ln 2}{\ln \frac{250}{92}},min,,,,566,10243,10809,1,nuclear,0.03626934,0,0,1
+2026-04-29-19-27-56,moonshotai/kimi-k2.6,24,,,35.48,0.758 \times 35 + 0.242 \times 37,g/mol,,,,533,5274,5807,1,nuclear,0.01882035,0,0,1
+2026-04-29-19-32-24,moonshotai/kimi-k2.6,25,,,1.24,\frac{hc}{\lambda},MeV,,,,501,10106,10607,1,nuclear,0.0460782,1,1,1
+2026-04-26-08-57-57,nvidia/llama-3.3-nemotron-super-49b-v1.5,1,,,1000,\sqrt{2a},m/s,,,,511,1278,1789,1,mechanics,0.0005623,1,0,1
+2026-04-26-09-03-19,nvidia/llama-3.3-nemotron-super-49b-v1.5,2,,,-0.5,\frac{(6 \cdot 6 - 0.125 \cdot 6^3) - (6 \cdot 2 - 0.125 \cdot 2^3)}{6 - 2} = \frac{9 - 11}{4} = -\frac{1}{2},m/s,,,,521,6357,6878,1,mechanics,0.0025949,1,0,1
+2026-04-26-09-09-13,nvidia/llama-3.3-nemotron-super-49b-v1.5,3,,,0.2877,\frac{128}{445},hours,,,,493,7217,7710,1,mechanics,0.0029361,0,0,0
+2026-04-26-09-12-03,nvidia/llama-3.3-nemotron-super-49b-v1.5,4,,,0.27,\arccos\left( \frac{11}{\sqrt{130}} \right),rad,,,,568,7624,8192,1,mechanics,0.0031064,0,0,0
+2026-04-26-09-12-35,nvidia/llama-3.3-nemotron-super-49b-v1.5,5,,,160,\frac{m v^2}{2 t},W,,,,521,1520,2041,1,mechanics,0.0006601,1,0,0
+2026-04-26-09-14-07,nvidia/llama-3.3-nemotron-super-49b-v1.5,6,,,29.5,\frac{1}{2} \frac{N m v_{\text{rms}}^2}{A},N/m,,,,542,4651,5193,1,thermodynamics,0.0019146,1,0,1
+2026-04-26-09-16-03,nvidia/llama-3.3-nemotron-super-49b-v1.5,7,,,6.49,nRT \ln\left(3\right),kJ,,,,505,5895,6400,1,thermodynamics,0.0024085,0,0,1
+2026-04-26-09-16-59,nvidia/llama-3.3-nemotron-super-49b-v1.5,8,,,7.87,\frac{P_0}{\rho g} \left(1.8 \frac{T_1}{T_2} - 1\right),m,,,,501,2776,3277,1,thermodynamics,0.0011605,0,0,1
+2026-04-26-09-18-18,nvidia/llama-3.3-nemotron-super-49b-v1.5,9,,,40.1,\frac{e_s(15^\circ \text{C})}{e_s(30^\circ \text{C})} \times 100\%,1,,,,498,4016,4514,1,thermodynamics,0.0016562,0,0,0
+2026-04-26-09-19-59,nvidia/llama-3.3-nemotron-super-49b-v1.5,10,,,2.06,P_1 V_1 \ln\left( rac{V_2}{V_1} ight),kJ,,,,513,5176,5689,1,thermodynamics,0.0021217,1,0,1
+2026-04-26-09-21-44,nvidia/llama-3.3-nemotron-super-49b-v1.5,11,,,0.23,\frac{h_o \cdot v}{u},mm,,,,488,5400,5888,1,optics,0.0022088,0,0,1
+2026-04-26-09-21-55,nvidia/llama-3.3-nemotron-super-49b-v1.5,12,,,40,\frac{f_o}{f_e},1,,,,480,520,1000,1,optics,0.000256,0,0,1
+2026-04-26-09-27-16,nvidia/llama-3.3-nemotron-super-49b-v1.5,13,,,,\frac{\pi}{3},1,,,,523,4566,5089,1,optics,0.0018787,0,0,0
+2026-04-26-09-29-27,nvidia/llama-3.3-nemotron-super-49b-v1.5,14,,,10,\frac{d - h}{2},cm,,,,525,6818,7343,1,optics,0.0027797,1,0,1
+2026-04-26-09-29-49,nvidia/llama-3.3-nemotron-super-49b-v1.5,15,,,600,\lambda = a \sin \theta,nm,,,,485,1123,1608,1,optics,0.0004977,1,0,1
+2026-04-26-09-32-13,nvidia/llama-3.3-nemotron-super-49b-v1.5,16,,,0.83,2\pi \sqrt{\frac{m l^{3}}{32 k_{e} q^{2}}},s,,,,552,7524,8076,1,electrostatics,0.0030648,1,0,1
+2026-04-26-09-34-42,nvidia/llama-3.3-nemotron-super-49b-v1.5,17,,,94.8,\sqrt{\dfrac{kQ}{E}},m,,,,516,7696,8212,1,electrostatics,0.00313,0,0,1
+2026-04-26-09-40-04,nvidia/llama-3.3-nemotron-super-49b-v1.5,18,,,2.85,\frac{m v^2}{2 e E},cm,,,,520,6169,6689,1,electrostatics,0.0025196,0,0,1
+2026-04-26-09-40-58,nvidia/llama-3.3-nemotron-super-49b-v1.5,19,,,0.4,\frac{2}{5},1,,,,530,2789,3319,1,electrostatics,0.0011686,1,0,1
+2026-04-26-09-43-21,nvidia/llama-3.3-nemotron-super-49b-v1.5,20,,,,\sqrt{\frac{2 k q Q}{m r_{0}}},m/s,,,,521,7300,7821,1,electrostatics,0.0029721,1,0,0
+2026-04-26-09-44-04,nvidia/llama-3.3-nemotron-super-49b-v1.5,21,,,3,\sqrt{\frac{1}{\frac{1}{4} - \frac{1}{R_H \lambda}}},1,,,,590,2186,2776,1,nuclear,0.0009334,0,0,1
+2026-04-26-09-45-59,nvidia/llama-3.3-nemotron-super-49b-v1.5,22,,,26.87,\frac{P \cdot t}{n \cdot E},kg,,,,557,5839,6396,1,nuclear,0.0023913,0,0,1
+2026-04-26-09-51-29,nvidia/llama-3.3-nemotron-super-49b-v1.5,23,,,41.59,T = \frac{60 \cdot \ln 2}{\ln \left( \frac{250}{92} \right)},min,,,,546,4083,4629,1,nuclear,0.0016878,0,0,1
+2026-04-26-09-52-01,nvidia/llama-3.3-nemotron-super-49b-v1.5,24,,,35.48,(0.758 \times 35 + 0.242 \times 37),g/mol,,,,531,1660,2191,1,nuclear,0.0007171,0,0,1
+2026-04-26-09-53-03,nvidia/llama-3.3-nemotron-super-49b-v1.5,25,,,1.24,\frac{hc}{\lambda},MeV,,,,500,3078,3578,1,nuclear,0.0012812,1,1,1
+2026-04-23-12-43-58,openai/gpt-5.4,1,,,1000,\sqrt{2al}=\sqrt{2\cdot 5\cdot 10^{5}\cdot 2}=10^{3},m/s,,,,503,55,558,1,mechanics,0.0020825,1,0,1
+2026-04-23-12-44-01,openai/gpt-5.4,2,,,1.5,\bar{v}=\frac{x(t_2)-x(t_1)}{t_2-t_1}=\frac{(A t_2+B t_2^3)-(A t_1+B t_1^3)}{t_2-t_1}=1.5,m/s,,,,515,84,599,1,mechanics,0.0023225,0,0,1
+2026-04-23-12-44-03,openai/gpt-5.4,3,,,0.27,"\frac{32\cdot 80}{80^2+50^2}\,\text{h}=0.2747247706422018\,\text{h}",s,,,,490,67,557,1,mechanics,0.00223,0,0,0
+2026-04-23-12-44-08,openai/gpt-5.4,4,,,45,"\vec a=(2y_1,2y_2)=(-2,4)\,\text{m/s}^2,\quad |\vec a|=\sqrt{(-2)^2+4^2}=2\sqrt5\,\text{m/s}^2;\quad \vec v(t)=(b_1+2y_1 t,\,b_2+2y_2 t),\ \vec v(1)=(-1,5)\,\text{m/s},\quad \cos\varphi=\frac{\vec v\cdot \vec a}{|\vec v||\vec a|}=\frac{(-1)(-2)+5\cdot4}{\sqrt{26}\cdot2\sqrt5}=\frac{11}{\sqrt{130}},\quad \varphi\approx 15.0^\circ",deg,,,,566,216,782,1,mechanics,0.004655,0,0,0
+2026-04-23-12-44-10,openai/gpt-5.4,5,,,125,\frac{\Delta E}{\Delta t}=\frac{\tfrac{1}{2}mv^2}{t}=\frac{\tfrac{1}{2}(50)(8^2)}{10}=125,W,,,,518,68,586,1,mechanics,0.002315,0,0,0
+2026-04-23-12-44-13,openai/gpt-5.4,6,,,73.81,"\frac{F}{L}=\frac{N m v_{\mathrm{rms}}^2}{A}=\frac{8(322\,\mathrm{kg})(2.50\,\mathrm{m/s})^2}{(21.0\,\mathrm{m})(13.0\,\mathrm{m})}",N/m,,,,538,101,639,1,thermodynamics,0.00286,0,0,1
+2026-04-23-12-44-16,openai/gpt-5.4,7,,,16.4,"\nu RT\ln\frac{V_2}{V_1}=\frac{m}{M}R(273+11)\ln 3\approx 1.64\cdot10^4\,\text{J}=16.4\,\text{kJ}",J,,,,499,94,593,1,thermodynamics,0.0026575,0,0,0
+2026-04-23-12-44-19,openai/gpt-5.4,8,,,18.85,"\frac{P_{\mathrm{atm}}}{\rho g}\left(1.8\,\frac{T_b}{T_t}-1\right)=\frac{1.013\times10^5}{(1000)(9.8)}\left(1.8\,\frac{277.15}{283.15}-1\right)\approx 18.85",m,,,,498,107,605,1,thermodynamics,0.00285,0,0,1
+2026-04-23-12-44-22,openai/gpt-5.4,9,,,0.55,\phi= rac{e_s(15^\circ\mathrm{C})}{e_s(30^\circ\mathrm{C})}\approx rac{1.705\ \mathrm{kPa}}{4.24\ \mathrm{kPa}}\approx 0.40,1,,,,495,78,573,1,thermodynamics,0.0024075,0,0,0
+2026-04-23-12-44-25,openai/gpt-5.4,10,,,2.06,"p_1 V_1 \ln\frac{V_2}{V_1} = 2\cdot10^5 \cdot 0.01 \cdot \ln\frac{28}{10} \approx 2.06\cdot10^3\,\text{J}",J,,,,505,102,607,1,thermodynamics,0.0027925,1,0,0
+2026-04-23-12-44-28,openai/gpt-5.4,11,,,0.16,"h_o\frac{d_i}{d_o} = (3.50\,\mathrm{mm})\frac{1.40\,\mathrm{cm}}{30.0\,\mathrm{cm}} \approx 0.163\,\mathrm{mm}",mm,,,,485,87,572,1,optics,0.0025175,0,0,1
+2026-04-23-12-44-31,openai/gpt-5.4,12,,,40,"-\frac{f_o}{f_e}=-\frac{100\,\text{cm}}{2.50\,\text{cm}}=-40",1,,,,477,65,542,1,optics,0.0021675,0,0,1
+2026-04-23-12-44-33,openai/gpt-5.4,13,,,45,\varphi=45^\circ=\frac{\pi}{4},1,,,,503,36,539,1,optics,0.0017975,0,0,0
+2026-04-23-12-44-35,openai/gpt-5.4,14,,,15,"\frac{d-h}{n}=\frac{25-5}{\frac{4}{3}}=15\,\text{cm}",m,,,,516,61,577,1,optics,0.002205,0,0,0
+2026-04-23-12-44-38,openai/gpt-5.4,15,,,600,"\lambda=a\sin\theta=(1.00\times10^{-6}\,\mathrm{m})\sin(36.9^\circ)=6.00\times10^{-7}\,\mathrm{m}=600\,\mathrm{nm}",nm,,,,482,75,557,1,optics,0.00233,1,0,1
+2026-04-23-12-44-41,openai/gpt-5.4,16,,,0.74,2\pi\sqrt{\frac{m l^{3}}{16k q^{2}}},s,,,,537,59,596,1,electrostatics,0.0022275,0,0,1
+2026-04-23-12-44-44,openai/gpt-5.4,17,,,8987.55,\sqrt{\frac{kq}{E}}=\sqrt{\frac{q}{4\pi\varepsilon_0 E}}\approx 8.99\times10^3,m,,,,503,77,580,1,electrostatics,0.0024125,0,0,1
+2026-04-23-12-44-47,openai/gpt-5.4,18,,,2.84,"\frac{m_e v_0^2}{2eE}\approx 2.84\cdot 10^{-2}\,\text{m}=2.84\,\text{cm}",m,,,,504,67,571,1,electrostatics,0.002265,0,0,0
+2026-04-23-12-44-49,openai/gpt-5.4,19,,,0.4,\frac{E_2}{E_1}=\frac{2}{\varepsilon+1}=\frac{2}{5},1,,,,514,58,572,1,electrostatics,0.002155,1,0,1
+2026-04-23-12-44-51,openai/gpt-5.4,20,,,,v_0<\sqrt{\frac{2kqQ}{mr_0}},m/s,,,,521,48,569,1,electrostatics,0.0020225,1,0,0
+2026-04-23-12-44-54,openai/gpt-5.4,21,,,3,"\sqrt{\frac{1}{\frac{1}{2^2}-\frac{\lambda}{R}}},\quad \lambda=\frac{d\sin\varphi}{k};\; \lambda=\frac{2.6\cdot10^{-6}\,\sin30^\circ}{2}=6.5\cdot10^{-7}\,\text{m} \Rightarrow n\approx 3",1,,,,572,126,698,1,nuclear,0.00332,0,0,1
+2026-04-23-12-44-57,openai/gpt-5.4,22,,,31.08,\frac{Pt}{\eta E_1}=\frac{14.7\cdot10^6\cdot(365\cdot24\cdot3600)}{0.25\cdot6.9\cdot10^{13}}\approx 3.11\cdot10^{1},kg,,,,547,95,642,1,nuclear,0.0027925,0,0,1
+2026-04-23-12-45-01,openai/gpt-5.4,23,,,41.53673,T_{1/2}=\frac{t\ln 2}{\ln\left(\frac{\Delta n_0}{\Delta n}\right)}=\frac{60\ln 2}{\ln\left(\frac{250}{92}\right)}\approx 41.5,min,,,,536,90,626,1,nuclear,0.00269,0,0,1
+2026-04-23-12-45-04,openai/gpt-5.4,24,,,35.48,"M(\mathrm{Cl})=0.758\cdot 35+0.242\cdot 37=35.484\,\mathrm{g/mol}=3.5484\times10^{-2}\,\mathrm{kg/mol}",kg/mol,,,,528,76,604,1,nuclear,0.00246,0,0,0
+2026-04-23-12-45-08,openai/gpt-5.4,25,,,1.24,"\frac{hc}{\lambda}=\frac{(4.135667696\times10^{-15}\,\mathrm{eV\cdot s})(2.99792458\times10^{8}\,\mathrm{m/s})}{1.0\times10^{-12}\,\mathrm{m}}\approx1.24\times10^{6}\,\mathrm{eV}=1.24\,\mathrm{MeV}",MeV,,,,496,123,619,1,nuclear,0.003085,1,0,1
+2026-04-24-16-43-31,openai/gpt-5.4-pro,1,,,1000,\sqrt{a l},m/s,,,,503,349,852,1,mechanics,0.07791,1,1,1
+2026-04-24-16-46-40,openai/gpt-5.4-pro,2,,,-0.5,\bar{v}=\frac{x(t_2)-x(t_1)}{t_2-t_1}=\frac{(A t_2+B t_2^3)-(A t_1+B t_1^3)}{t_2-t_1}=\frac{(6\cdot6-0.125\cdot6^3)-(6\cdot2-0.125\cdot2^3)}{6-2}=-0.5,m/s,,,,515,365,880,1,mechanics,0.32739,1,0,1
+2026-04-24-16-49-16,openai/gpt-5.4-pro,3,,,0.29,"\frac{32\cdot 80}{80^2+50^2}\,\mathrm{h}=\frac{128}{445}\,\mathrm{h}",h,,,,490,2327,2817,1,mechanics,0.43356,1,0,1
+2026-04-24-16-52-33,openai/gpt-5.4-pro,4,,,0.27,"\vec a=(2\cdot(-1),\,2\cdot2)=(-2,\,4)\,\mathrm{m/s^2},\quad |\vec a|=2\sqrt{5}\,\mathrm{m/s^2};\quad \vec v(1)=\bigl(1+2\cdot(-1)\cdot1,\,1+2\cdot2\cdot1\bigr)=(-1,\,5)\,\mathrm{m/s},\quad \varphi=\arccos\!\left(\frac{(-1)(-2)+5\cdot4}{\sqrt{(-1)^2+5^2}\,\sqrt{(-2)^2+4^2}}\right)=\arccos\!\left(\frac{11}{\sqrt{130}}\right)\approx0.266\,\mathrm{rad}\;(15.26^\circ)",1,,,,566,3823,4389,1,mechanics,0.70512,0,0,0
+2026-04-24-16-53-59,openai/gpt-5.4-pro,5,,,160,\frac{\Delta K}{\Delta t}=\frac{\tfrac{1}{2}mv^2}{t}=\frac{\tfrac{1}{2}(50)(8^2)}{10}=160,W,,,,518,480,998,1,mechanics,0.10194,1,0,0
+2026-04-24-16-56-12,openai/gpt-5.4-pro,6,,,29.5,"\frac{F}{\ell}=\frac{N m v_{\mathrm{rms}}^2}{2A}=\frac{(8)(322\,\mathrm{kg})(2.50\,\mathrm{m/s})^2}{2(21.0\,\mathrm{m})(13.0\,\mathrm{m})}\approx 29.5\,\mathrm{N/m}",N/m,,,,538,1525,2063,1,thermodynamics,0.29064,1,0,1
+2026-04-24-16-57-43,openai/gpt-5.4-pro,7,,,6.49,"\nu RT\ln\frac{V_2}{V_1}=\frac{m}{M}RT\ln 3=\frac{5\,\text{g}}{2\,\text{g/mol}}\cdot 8.314\,\frac{\text{J}}{\text{mol\,K}}\cdot(273.15+11)\,\text{K}\cdot\ln 3\approx 6.49\,\text{kJ}",kJ,,,,499,718,1217,1,thermodynamics,0.14421,0,0,1
+2026-04-24-17-00-12,openai/gpt-5.4-pro,8,,,7.87,"\frac{P_{\mathrm{atm}}}{\rho g}\left(1.8\,\frac{T_b}{T_t}-1\right)=\frac{101325}{(1000)(9.81)}\left(1.8\,\frac{277.15}{283.15}-1\right)\approx 7.87",m,,,,498,851,1349,1,thermodynamics,0.16812,0,0,1
+2026-04-24-17-02-03,openai/gpt-5.4-pro,9,,,0.4,\mathrm{RH}=\frac{p_{\mathrm{sat}}(15^\circ\mathrm{C})}{p_{\mathrm{sat}}(30^\circ\mathrm{C})}\approx\frac{1.705\times10^3}{4.246\times10^3}\approx 0.402\;(\approx 40.2\%),1,,,,495,433,928,1,thermodynamics,0.09279,0,0,0
+2026-04-24-17-04-20,openai/gpt-5.4-pro,10,,,2.06,"p_{1}V_{1}\ln\left(\frac{V_{2}}{V_{1}}\right)=2\cdot10^{5}\cdot0.01\cdot\ln\left(\frac{28}{10}\right)\approx 2.06\,\mathrm{kJ}",kJ,,,,505,658,1163,1,thermodynamics,0.13359,1,0,1
+2026-04-24-17-06-38,openai/gpt-5.4-pro,11,,,0.23,"\left|h_i\right|=\frac{d_i}{d_o}h_o=\frac{2.00\,\mathrm{cm}}{30.0\,\mathrm{cm}}\left(3.50\,\mathrm{mm}\right)=0.233\,\mathrm{mm}",mm,,,,485,1181,1666,1,optics,0.22713,0,0,1
+2026-04-24-17-08-06,openai/gpt-5.4-pro,12,,,-40,"-\frac{f_o}{f_e}=-\frac{100\,\mathrm{cm}}{2.50\,\mathrm{cm}}=-40",1,,,,477,294,771,1,optics,0.06723,1,0,1
+2026-04-24-17-09-38,openai/gpt-5.4-pro,13,,,1.05,\varphi=\frac{\pi}{3}=60^\circ,rad,,,,503,1553,2056,1,optics,0.29463,0,0,0
+2026-04-24-17-12-30,openai/gpt-5.4-pro,14,,,0.1,"\frac{n}{2}(d-2h)=\frac{4}{3}\left(\frac{25\,\text{cm}}{2}-5\,\text{cm}\right)=10\,\text{cm}=0.10\,\text{m}",m,,,,516,1616,2132,1,optics,0.30636,0,0,0
+2026-04-24-17-14-34,openai/gpt-5.4-pro,15,,,600.4,"\lambda = a\sin\theta = (1.00\times10^3\,\mathrm{nm})\sin(36.9^\circ) \approx 600.4\,\mathrm{nm}",nm,,,,482,1258,1740,1,optics,0.2409,0,0,1
+2026-04-24-17-15-58,openai/gpt-5.4-pro,16,,,0.83,2\pi\sqrt{\frac{m l^{3}}{32 k q^{2}}},s,,,,537,1156,1693,1,electrostatics,0.22419,1,0,1
+2026-04-24-17-16-33,openai/gpt-5.4-pro,17,,,94.8,\sqrt{\frac{q}{4\pi\varepsilon_0 E}}=\sqrt{\frac{kq}{E}}\approx 9.48\times 10^{1},m,,,,503,403,906,1,electrostatics,0.08763,0,0,1
+2026-04-24-17-18-49,openai/gpt-5.4-pro,18,,,2.84,"\frac{m_e v_0^2}{2eE}\approx 2.84\,\mathrm{cm}",cm,,,,504,1139,1643,1,electrostatics,0.22014,0,0,1
+2026-04-24-17-21-08,openai/gpt-5.4-pro,19,,,2.5,"\frac{E_0}{E'}=\frac{\varepsilon+1}{2}=\frac{5}{2},\qquad E'=\frac{2}{5}E_0",1,,,,514,2299,2813,1,electrostatics,0.42924,0,0,1
+2026-04-24-17-25-24,openai/gpt-5.4-pro,20,,,,v_0<\sqrt{\frac{2Qq}{4\pi\varepsilon_0 m r_0}},m/s,,,,521,4346,4867,1,electrostatics,0.79791,1,0,0
+2026-04-24-17-27-24,openai/gpt-5.4-pro,21,,,3,3,1,,,,572,517,1089,1,nuclear,0.11022,0,0,1
+2026-04-24-17-29-21,openai/gpt-5.4-pro,22,,,26.9,"\frac{Pt}{\eta E}\,m_0=\frac{14.7\cdot10^{6}\cdot(365\cdot24\cdot3600)}{0.25\cdot6.9\cdot10^{13}}\cdot1\,\mathrm{kg}\approx2.69\cdot10^{1}\,\mathrm{kg}",kg,,,,547,746,1293,1,nuclear,0.15069,1,0,1
+2026-04-24-17-31-08,openai/gpt-5.4-pro,23,,,41.60246,"T_{1/2}=\frac{t\ln 2}{\ln\left(\Delta n_0/\Delta n\right)}=\frac{60\,\mathrm{min}\cdot\ln 2}{\ln\left(250/92\right)}\approx 41.6\,\mathrm{min}",min,,,,536,1752,2288,1,nuclear,0.33144,0,0,1
+2026-04-24-17-32-40,openai/gpt-5.4-pro,24,,,0.04,"M_{\mathrm{Cl}}=0.758\cdot 35+0.242\cdot 37=35.484\,\mathrm{g\,mol^{-1}}=3.5484\times10^{-2}\,\mathrm{kg\,mol^{-1}}",kg/mol,,,,528,544,1072,1,nuclear,0.11376,0,0,0
+2026-04-24-17-35-46,openai/gpt-5.4-pro,25,,,1.24,"\frac{hc}{\lambda}=\frac{(6.62607015\times10^{-34}\,\mathrm{J\cdot s})(2.99792458\times10^{8}\,\mathrm{m/s})}{1.0\times10^{-12}\,\mathrm{m}}\approx1.23984\,\mathrm{MeV}",MeV,,,,496,924,1420,1,nuclear,0.1812,1,0,1
+2026-04-26-08-45-33,openai/gpt-oss-120b,1,,,1000,"\sqrt{a\,l}",m/s,,,,551,368,919,1,mechanics,9.14E-05,1,0,1
+2026-04-26-08-45-56,openai/gpt-oss-120b,2,,,-0.5,-\frac{1}{2},m/s,,,,563,569,1132,1,mechanics,0.000275929,1,0,1
+2026-04-26-08-46-13,openai/gpt-oss-120b,3,,,0.29,\frac{128}{445}\ \text{h},h,,,,538,1102,1640,1,mechanics,0.000230362,1,0,1
+2026-04-26-08-46-33,openai/gpt-oss-120b,4,,,0.26,\theta = \arccos\left(\frac{11}{\sqrt{130}}\right) \approx 0.264\ \text{rad},1,,,,614,1311,1925,1,mechanics,0.000273036,0,0,0
+2026-04-26-08-46-39,openai/gpt-oss-120b,5,,,160,\frac{1}{2} m v^{2} / t,W,,,,566,397,963,1,mechanics,9.75E-05,1,0,0
+2026-04-26-08-46-50,openai/gpt-oss-120b,6,,,29.5,"\frac{F}{L}=\frac{N\,m\,v_{\text{rms}}^{2}}{2\,A}",N/m,,,,599,1236,1835,1,thermodynamics,0.0005543,1,0,1
+2026-04-26-08-47-34,openai/gpt-oss-120b,7,,,6.44,nRT\ln\frac{V_f}{V_i},kJ,,,,562,1638,2200,1,thermodynamics,0.0004376,0,0,1
+2026-04-26-08-47-56,openai/gpt-oss-120b,8,,,7.9,"\frac{P_0\,\left(1.8\,T_{\text{bottom}} - T_{\text{top}}\right)}{T_{\text{top}}\,\rho\,g}",m,,,,546,1583,2129,1,thermodynamics,0.000322064,1,0,1
+2026-04-26-08-48-08,openai/gpt-oss-120b,9,,,40,\frac{e_s(15^{\circ}\text{C})}{e_s(30^{\circ}\text{C})}\times 100\% \approx 40\%,1,,,,543,710,1253,1,thermodynamics,0.000156077,0,0,0
+2026-04-26-08-48-18,openai/gpt-oss-120b,10,,,2.06,p_{1} V_{1} \ln\left(\frac{V_{2}}{V_{1}}\right),kJ,,,,553,545,1098,1,thermodynamics,0.000125117,1,0,1
+2026-04-26-08-48-27,openai/gpt-oss-120b,11,,,0,"h' = \frac{f}{d}\, h = \frac{0.020\,\text{m}}{0.30\,\text{m}} \times 3.50\times10^{-3}\,\text{m}",m,,,,548,705,1253,1,optics,0.00040025,0,0,0
+2026-04-26-08-48-32,openai/gpt-oss-120b,12,,,40,"\frac{f_{\text{obj}}}{f_{\text{eye}}} = \frac{100\,\text{cm}}{2.50\,\text{cm}} = 40",1,,,,538,205,743,1,optics,0.0002037,0,0,1
+2026-04-26-08-49-09,openai/gpt-oss-120b,13,,,1.05,\phi = \frac{\pi}{3},rad,,,,564,3679,4243,1,optics,0.001528,0,0,0
+2026-04-26-08-49-32,openai/gpt-oss-120b,14,,,0.11,"\frac{n\,(d - h) - h}{2}",m,,,,579,1878,2457,1,optics,0.00097812,0,0,0
+2026-04-26-08-49-40,openai/gpt-oss-120b,15,,,600,"\lambda = a \sin\theta = (1.00\,\mu\text{m})\sin 36.9^{\circ} = 600\,\text{nm}",nm,,,,543,518,1061,1,optics,0.00039225,1,0,1
+2026-04-26-08-50-23,openai/gpt-oss-120b,16,,,0.83,2\pi\sqrt{\frac{m l^{3}}{32 k_{e} q^{2}}},s,,,,598,1763,2361,1,electrostatics,0.00082325,1,0,1
+2026-04-26-08-50-39,openai/gpt-oss-120b,17,,,94.8,"\sqrt{\frac{1}{4\pi\varepsilon_0}\,\frac{q}{E}}",m,,,,566,536,1102,1,electrostatics,0.0001623,0,0,1
+2026-04-26-08-50-55,openai/gpt-oss-120b,18,,,2.84,\frac{m v_{0}^{2}}{2 e E},cm,,,,552,1139,1691,1,electrostatics,0.000237938,0,0,1
+2026-04-26-08-51-05,openai/gpt-oss-120b,19,,,0.4,\frac{2}{5},1,,,,573,952,1525,1,electrostatics,0.00065715,1,0,1
+2026-04-26-08-51-09,openai/gpt-oss-120b,20,,,,v_0 \ll c,m/s,,,,584,336,920,1,electrostatics,0.00022304,1,0,0
+2026-04-26-08-51-21,openai/gpt-oss-120b,21,,,3,3,1,,,,633,833,1466,1,nuclear,0.00059475,0,0,1
+2026-04-26-08-51-34,openai/gpt-oss-120b,22,,,26.9,"\frac{P \cdot t}{\eta \, E}, \quad t = 365\cdot24\cdot3600\ \text{s}",kg,,,,608,1282,1890,1,nuclear,0.0005736,1,0,1
+2026-04-26-08-51-37,openai/gpt-oss-120b,23,,,41.6,T_{1/2}=\frac{\ln 2\; t}{\ln\left(\frac{N_{0}}{N}\right)},min,,,,597,717,1314,1,nuclear,0.00059457,0,0,1
+2026-04-26-08-51-47,openai/gpt-oss-120b,24,,,0.04,\overline{M}=0.758\times35+0.242\times37=35.5\ \text{g/mol}=0.0355\ \text{kg/mol},kg/mol,,,,576,529,1105,1,nuclear,0.000122974,0,0,0
+2026-04-26-08-52-16,openai/gpt-oss-120b,25,,,1.24,"\frac{hc}{\lambda} = \frac{(6.62607015\times10^{-34}\,\mathrm{J\,s})(2.99792458\times10^{8}\,\mathrm{m/s})}{1\times10^{-12}\,\mathrm{m}} = 1.24\ \mathrm{MeV}",MeV,,,,557,913,1470,1,nuclear,0.0004387,1,0,1
+2026-04-25-17-43-09,openai/o4-mini-high,1,,,1000,\sqrt{a l},m/s,,,,503,1018,1521,1,mechanics,0.0050325,1,1,1
+2026-04-25-17-43-40,openai/o4-mini-high,2,,,-0.5,\frac{A t_2 + B t_2^3 - \bigl(A t_1 + B t_1^3\bigr)}{t_2 - t_1},m/s,,,,515,1570,2085,1,mechanics,0.0203071,1,0,1
+2026-04-25-17-44-17,openai/o4-mini-high,3,,,0.29,\frac{128}{445},h,,,,490,3848,4338,1,mechanics,0.0174702,1,0,1
+2026-04-25-17-44-45,openai/o4-mini-high,4,,,0.27,"\langle -2,4\rangle\,\mathrm{m/s^2},\quad\theta=\arccos\left(\tfrac{11}{\sqrt{130}}\right)",1,,,,566,3314,3880,1,mechanics,0.0152042,0,0,0
+2026-04-25-17-44-56,openai/o4-mini-high,5,,,160,\frac{\frac{1}{2} m v^2}{t},W,,,,518,1063,1581,1,mechanics,0.005247,1,0,0
+2026-04-25-17-45-17,openai/o4-mini-high,6,,,29.5,\frac{8\cdot322\cdot(2.50)^2}{2\cdot21.0\cdot13.0},N/m,,,,538,3161,3699,1,thermodynamics,0.0145002,1,0,1
+2026-04-25-17-45-39,openai/o4-mini-high,7,,,6.49,\frac{mRT}{M}\ln 3,kJ,,,,499,2826,3325,1,thermodynamics,0.0129833,0,0,1
+2026-04-25-17-46-05,openai/o4-mini-high,8,,,7.9,\frac{P_0}{\rho g}\left(1.8\frac{T_1}{T_2}-1\right),m,,,,498,3832,4330,1,thermodynamics,0.0174086,1,0,1
+2026-04-25-17-46-41,openai/o4-mini-high,9,,,0.4,\\frac{e_s(15^\\circ\\mathrm{C})}{e_s(30^\\circ\\mathrm{C})},1,,,,495,3964,4459,1,thermodynamics,0.0179861,0,0,0
+2026-04-25-17-46-59,openai/o4-mini-high,10,,,2.06,p_{1} V_{1} \ln\frac{V_{2}}{V_{1}},kJ,,,,505,1638,2143,1,thermodynamics,0.0077627,1,0,1
+2026-04-25-17-47-20,openai/o4-mini-high,11,,,0.2,"h_o \frac{f}{d_o} = (3.50\,\mathrm{mm})\frac{17.0\,\mathrm{mm}}{300\,\mathrm{mm}} = 0.198\,\mathrm{mm}",mm,,,,485,2137,2622,1,optics,0.0099363,0,0,1
+2026-04-25-17-47-34,openai/o4-mini-high,12,,,40,"\frac{f_{\mathrm{obj}}}{f_{\mathrm{eye}}} = \frac{100\,\mathrm{cm}}{2.50\,\mathrm{cm}} = 40",1,,,,477,1812,2289,1,optics,0.0084975,0,0,1
+2026-04-25-17-48-12,openai/o4-mini-high,13,,,,\frac{\pi}{3},rad,,,,503,5301,5804,1,optics,0.0238777,0,0,0
+2026-04-25-17-50-44,openai/o4-mini-high,14,,,0.1,n\left(\frac{d}{2} - h\right),m,,,,516,24843,25359,1,optics,0.1098768,0,0,0
+2026-04-25-17-51-22,openai/o4-mini-high,15,,,0,"\lambda = a \sin\theta = (1.00\times10^{-6}\,\mathrm{m})\sin(36.9^\circ) = 6.00\times10^{-7}\,\mathrm{m}",m,,,,482,6047,6529,1,optics,0.027137,0,0,0
+2026-04-25-17-51-41,openai/o4-mini-high,16,,,0.83,2\pi\sqrt{\frac{m l^3}{32 k q^2}},s,,,,537,2639,3176,1,electrostatics,0.0122023,1,0,1
+2026-04-25-17-51-52,openai/o4-mini-high,17,,,94.8,\sqrt{\frac{q}{4\pi\varepsilon_0 E}},m,,,,503,1694,2197,1,electrostatics,0.0080069,0,0,1
+2026-04-25-17-52-12,openai/o4-mini-high,18,,,0.03,\frac{m v^2}{2 e E},m,,,,504,2528,3032,1,electrostatics,0.0116776,0,0,0
+2026-04-25-17-52-29,openai/o4-mini-high,19,,,0.4,\frac{2}{5},1,,,,514,2089,2603,1,electrostatics,0.009757,1,0,1
+2026-04-25-17-52-41,openai/o4-mini-high,20,,,,v_{0}<\sqrt{\frac{2kQq}{m r_{0}}},m/s,,,,521,1734,2255,1,electrostatics,0.0082027,1,0,0
+2026-04-25-17-53-01,openai/o4-mini-high,21,,,3,3,1,,,,572,2965,3537,1,nuclear,0.0136752,0,0,1
+2026-04-25-17-53-19,openai/o4-mini-high,22,,,26.9,"\frac{P\,t}{\eta\,E}",kg,,,,547,2158,2705,1,nuclear,0.0100969,1,0,1
+2026-04-25-17-53-39,openai/o4-mini-high,23,,,41.6,T_{1/2}=\frac{60\ln2}{\ln\left(\frac{250}{92}\right)},min,,,,536,3667,4203,1,nuclear,0.0167244,0,0,1
+2026-04-25-17-53-49,openai/o4-mini-high,24,,,35.48,\overline{A}=0.758\times35+0.242\times37=35.484,g/mol,,,,528,1354,1882,1,nuclear,0.0065384,0,0,1
+2026-04-25-17-54-19,openai/o4-mini-high,25,,,1.24,\frac{hc}{\lambda},MeV,,,,496,4001,4497,1,nuclear,0.01815,1,1,1
+2026-04-23-15-59-43,qwen/qwen3.5-397b-a17b,1,,,1000,\sqrt{l \cdot a},m/s,,,,532,3495,4027,1,mechanics,0.00838578,1,0,1
+2026-04-23-16-02-31,qwen/qwen3.5-397b-a17b,2,,,-0.5,\langle v \rangle = \frac{x(t_2) - x(t_1)}{t_2 - t_1} = -0.5,m/s,,,,547,2274,2821,1,mechanics,0.02006125,1,0,1
+2026-04-23-16-04-14,qwen/qwen3.5-397b-a17b,3,,,0.29,\frac{80 \times 32}{80^2 + 50^2},h,,,,525,7035,7560,1,mechanics,0.02491125,1,0,1
+2026-04-23-16-07-17,qwen/qwen3.5-397b-a17b,4,,,0.27,\arctan\left(\frac{3}{11}\right),rad,,,,595,8692,9287,1,mechanics,0.02057133,0,0,0
+2026-04-23-16-08-32,qwen/qwen3.5-397b-a17b,5,,,160,\frac{m v^2}{2 t},W,,,,552,3078,3630,1,mechanics,0.0074178,1,0,0
+2026-04-23-16-10-41,qwen/qwen3.5-397b-a17b,6,,,29.5,\frac{N m v_{rms}^2}{2 L W},N/m,,,,576,6632,7208,1,thermodynamics,0.0235288,1,0,1
+2026-04-23-16-13-39,qwen/qwen3.5-397b-a17b,7,,,6.48,\frac{m}{M}RT\ln\left(\frac{V_2}{V_1}\right),kJ,,,,528,7389,7917,1,thermodynamics,0.0261519,0,0,1
+2026-04-23-16-16-11,qwen/qwen3.5-397b-a17b,8,,,7.88,\frac{P_{atm}}{\rho g} \left( 1.8 \frac{T_{b}}{T_{t}} - 1 \right),m,,,,532,6702,7234,1,thermodynamics,0.0237496,0,0,1
+2026-04-23-16-18-27,qwen/qwen3.5-397b-a17b,9,,,0.4,\frac{P_{sat}(15^{\circ}\text{C})}{P_{sat}(30^{\circ}\text{C})} \approx \frac{1.7 \text{ kPa}}{4.2 \text{ kPa}},1,,,,529,7420,7949,1,thermodynamics,0.01756911,0,0,0
+2026-04-23-16-21-41,qwen/qwen3.5-397b-a17b,10,,,2059.24,p_1 V_1 \ln\left(\frac{V_2}{V_1}\right),J,,,,539,10665,11204,1,thermodynamics,0.02516631,0,0,0
+2026-04-23-16-24-08,qwen/qwen3.5-397b-a17b,11,,,0,h_o \frac{d_i}{d_o},m,,,,519,8029,8548,1,optics,0.01899027,0,0,0
+2026-04-23-16-26-14,qwen/qwen3.5-397b-a17b,12,,,-40,-\frac{f_o}{f_e},1,,,,512,5417,5929,1,optics,0.0192411,1,0,1
+2026-04-23-16-28-53,qwen/qwen3.5-397b-a17b,13,,,1.05,\frac{\pi}{3},rad,,,,533,8701,9234,1,optics,0.02056821,0,0,0
+2026-04-23-16-31-16,qwen/qwen3.5-397b-a17b,14,,,0.1,\frac{n(d - 2h)}{2},m,,,,540,7253,7793,1,optics,0.01718262,0,0,0
+2026-04-23-16-33-21,qwen/qwen3.5-397b-a17b,15,,,600,\lambda = a \sin(\theta),nm,,,,516,6823,7339,1,optics,0.01616706,1,0,1
+2026-04-23-16-37-26,qwen/qwen3.5-397b-a17b,16,,,0.83,\pi \sqrt{\frac{m l^3}{8 k q^2}},s,,,,574,7561,8135,1,electrostatics,0.0179166,1,0,1
+2026-04-23-16-39-49,qwen/qwen3.5-397b-a17b,17,,,94.87,\sqrt{\frac{q}{4\pi\varepsilon_0 E}},m,,,,537,6114,6651,1,electrostatics,0.02169435,0,0,1
+2026-04-23-16-41-45,qwen/qwen3.5-397b-a17b,18,,,0.03,\frac{m v^2}{2 e E},m,,,,535,6321,6856,1,electrostatics,0.01499979,0,0,0
+2026-04-23-16-43-23,qwen/qwen3.5-397b-a17b,19,,,0.4,\frac{2}{5},1,,,,541,4764,5305,1,electrostatics,0.01135875,1,0,1
+2026-04-23-16-46-03,qwen/qwen3.5-397b-a17b,20,,,,v_0 \ge \sqrt{\frac{Q q}{2 \pi \epsilon_0 m r_0}},m/s,,,,550,8759,9309,1,electrostatics,0.02071056,1,0,0
+2026-04-23-16-47-29,qwen/qwen3.5-397b-a17b,21,,,3,\sqrt{\frac{1}{\frac{1}{4} - \frac{k}{R d \sin \phi}}},1,,,,596,4652,5248,1,nuclear,0.01111812,0,0,1
+2026-04-23-16-49-03,qwen/qwen3.5-397b-a17b,22,,,26.9,\frac{P \cdot t \cdot m_0}{\eta \cdot E},kg,,,,577,5124,5701,1,nuclear,0.01221519,1,0,1
+2026-04-23-16-50-02,qwen/qwen3.5-397b-a17b,23,,,41.6,T_{1/2} = \frac{60 \ln 2}{\ln(250/92)},min,,,,561,5673,6234,1,nuclear,0.0207594,0,0,1
+2026-04-23-16-52-35,qwen/qwen3.5-397b-a17b,24,,,35.48,0.758 \times 35 + 0.242 \times 37,g/mol,,,,569,6231,6800,1,nuclear,0.02212145,0,0,1
+2026-04-23-16-54-17,qwen/qwen3.5-397b-a17b,25,,,1.24,\frac{hc}{\lambda},MeV,,,,531,5583,6114,1,nuclear,0.01327131,1,1,1
+2026-04-23-17-49-10,qwen/qwen3.6-plus,1,,,1000,\sqrt{al},m/s,,,,532,1767,2299,1,mechanics,0.00361855,1,0,1
+2026-04-23-17-50-56,qwen/qwen3.6-plus,2,,,-0.5,-0.5,m/s,,,,547,2510,3057,1,mechanics,0.011382475,1,0,1
+2026-04-23-17-52-39,qwen/qwen3.6-plus,3,,,0.29,\frac{128}{445},h,,,,525,5596,6121,1,mechanics,0.011082825,1,0,1
+2026-04-23-17-54-12,qwen/qwen3.6-plus,4,,,15.26,\arccos\left(\frac{11}{\sqrt{130}}\right),^\circ,,,,595,5068,5663,1,mechanics,0.010075975,0,0,0
+2026-04-23-17-54-55,qwen/qwen3.6-plus,5,,,160,\frac{mv^2}{2t},W,,,,552,2270,2822,1,mechanics,0.0046059,1,0,0
+2026-04-23-17-56-23,qwen/qwen3.6-plus,6,,,29.5,\frac{N m v_{\text{rms}}^2}{2 L W},N/m,,,,576,4734,5310,1,thermodynamics,0.0094185,1,0,1
+2026-04-23-17-57-29,qwen/qwen3.6-plus,7,,,6.49,\frac{m}{M} R T \ln\left(\frac{V_2}{V_1}\right),kJ,,,,528,3583,4111,1,thermodynamics,0.00715845,0,0,1
+2026-04-23-17-59-06,qwen/qwen3.6-plus,8,,,7.87,\frac{P_{\text{atm}}}{\rho g} \left( 1.8 \frac{T_{\text{bottom}}}{T_{\text{top}}} - 1 \right),m,,,,532,5252,5784,1,thermodynamics,0.0104143,0,0,1
+2026-04-23-18-00-17,qwen/qwen3.6-plus,9,,,40,\frac{P_{\text{sat}}(15^\circ\text{C})}{P_{\text{sat}}(30^\circ\text{C})} \times 100\%,%,,,,529,3781,4310,1,thermodynamics,0.007544875,0,0,1
+2026-04-23-18-01-23,qwen/qwen3.6-plus,10,,,2.06,p_1 V_1 \ln\left(\frac{V_2}{V_1}\right),kJ,,,,539,3590,4129,1,thermodynamics,0.007175675,1,0,1
+2026-04-23-18-02-39,qwen/qwen3.6-plus,11,,,0.23,h_o \frac{d_i}{d_o},mm,,,,519,4064,4583,1,optics,0.008093475,0,0,1
+2026-04-23-18-03-17,qwen/qwen3.6-plus,12,,,-40,-\frac{f_o}{f_e},1,,,,512,1960,2472,1,optics,0.0039884,1,0,1
+2026-04-23-18-04-45,qwen/qwen3.6-plus,13,,,60,60^\circ,deg,,,,533,4801,5334,1,optics,0.009535175,1,0,0
+2026-04-23-18-06-05,qwen/qwen3.6-plus,14,,,10,\frac{n(d - 2h)}{2},cm,,,,540,4284,4824,1,optics,0.0085293,1,0,1
+2026-04-23-18-07-03,qwen/qwen3.6-plus,15,,,600,\lambda = a \sin \theta,nm,,,,516,3075,3591,1,optics,0.00616395,1,0,1
+2026-04-23-18-10-10,qwen/qwen3.6-plus,16,,,0.83,\pi \sqrt{\frac{m l^3}{8 k q^2}},s,,,,574,10324,10898,1,electrostatics,0.02031835,1,0,1
+2026-04-23-18-11-18,qwen/qwen3.6-plus,17,,,94.87,\sqrt{\frac{q}{4\pi\varepsilon_0 E}},m,,,,537,3642,4179,1,electrostatics,0.007276425,0,0,1
+2026-04-23-18-12-37,qwen/qwen3.6-plus,18,,,2.84,\frac{m v^2}{2 e E},cm,,,,535,4162,4697,1,electrostatics,0.008289775,0,0,1
+2026-04-23-18-13-39,qwen/qwen3.6-plus,19,,,0.4,\frac{2}{5},1,,,,541,3302,3843,1,electrostatics,0.006614725,1,0,1
+2026-04-23-18-14-41,qwen/qwen3.6-plus,20,,,,v_0 \geq \sqrt{\frac{2kQq}{m r_0}},m/s,,,,550,3351,3901,1,electrostatics,0.0067132,1,0,0
+2026-04-23-18-15-56,qwen/qwen3.6-plus,21,,,3,\sqrt{\frac{1}{\frac{1}{4} - \frac{k}{R d \sin \phi}}},1,,,,596,4050,4646,1,nuclear,0.0080912,0,0,1
+2026-04-23-18-17-09,qwen/qwen3.6-plus,22,,,26.9,\frac{P t}{\eta E},kg,,,,577,3892,4469,1,nuclear,0.007776925,1,0,1
+2026-04-23-18-18-04,qwen/qwen3.6-plus,23,,,41.6,\frac{t \ln 2}{\ln(\Delta n_0 / \Delta n)},min,,,,561,3588,4149,1,nuclear,0.007178925,0,0,1
+2026-04-23-18-18-46,qwen/qwen3.6-plus,24,,,35.48,0.758 \times 35 + 0.242 \times 37 = 35.484,g/mol,,,,569,2199,2768,1,nuclear,0.004472975,0,0,1
+2026-04-23-18-21-21,qwen/qwen3.6-plus,25,,,1.24,\frac{hc}{\lambda} \approx 1.24 \text{ MeV},MeV,,,,531,8453,8984,1,nuclear,0.016655925,1,0,1
+2026-04-25-18-28-34,stepfun/step-3.5-flash,1,,,1000,\sqrt{a \cdot l},m/s,,,,536,4986,5522,1,mechanics,0.0015494,1,0,1
+2026-04-25-18-32-07,stepfun/step-3.5-flash,2,,,3,3,m/s,,,,545,6742,7287,1,mechanics,0.00207165,0,0,1
+2026-04-25-18-37-22,stepfun/step-3.5-flash,3,,,1035.51,\frac{32 \times 80 \times 3600}{80^2 + 50^2},s,,,,521,51955,52476,1,mechanics,0.0156386,0,0,0
+2026-07-22-08-58-50,stepfun/step-3.5-flash,4,,,0.266252,"\arctan\left( rac{3}{11}
+ight)",rad,PARSING_ERROR,,,598,26921,27519,1,mechanics,0.0081361,0,0,0
+2026-04-25-18-51-57,stepfun/step-3.5-flash,5,,,160,\frac{m v^2}{2 t},W,,,,548,14554,15102,1,mechanics,0.004421,1,0,0
+2026-04-25-18-57-01,stepfun/step-3.5-flash,6,,,29.5,\frac{N m v_{\text{rms}}^2}{2 A},N/m,,,,571,49929,50500,1,thermodynamics,0.0150358,1,0,1
+2026-04-25-19-08-34,stepfun/step-3.5-flash,7,,,6.488467622,\frac{m R (t+273.15) \ln(3)}{1000 M},kJ,,,,529,20449,20978,1,thermodynamics,0.0061876,0,0,1
+2026-04-25-19-22-52,stepfun/step-3.5-flash,8,,,7.9,\frac{P_{atm}}{\rho g} \left(1.8 \times \frac{4.0+273.15}{10+273.15} - 1\right),m,,,,529,23359,23888,1,thermodynamics,0.0070606,1,0,1
+2026-04-25-19-24-05,stepfun/step-3.5-flash,9,,,0.4,\frac{e_s(15^\circ\text{C})}{e_s(30^\circ\text{C})},1,,,,528,12484,13012,1,thermodynamics,0.003798,0,0,0
+2026-04-25-19-30-31,stepfun/step-3.5-flash,10,,,2.06,2 \ln\left(\frac{14}{5}\right),kJ,,,,536,13472,14008,1,thermodynamics,0.0040952,1,0,1
+2026-04-25-19-32-01,stepfun/step-3.5-flash,11,,,0.23,\frac{20.0}{300.} \times 3.50,mm,,,,516,15483,15999,1,optics,0.0046965,0,0,1
+2026-04-25-19-33-19,stepfun/step-3.5-flash,12,,,40,\frac{f_o}{f_e},1,,,,506,3276,3782,1,optics,0.0010334,0,0,1
+2026-04-25-19-37-07,stepfun/step-3.5-flash,13,,,,\phi = \frac{\pi}{3},rad,,,,536,35263,35799,1,optics,0.0106325,0,0,0
+2026-04-25-19-43-08,stepfun/step-3.5-flash,14,,,0.075,l = \frac{d - 2h}{2},m,,,,552,45267,45819,1,optics,0.0136353,0,0,0
+2026-04-25-19-47-02,stepfun/step-3.5-flash,15,,,600,1.00 \times 10^3 \sin(36.9^\circ),nm,,,,511,12467,12978,1,optics,0.0037912,1,0,1
+2026-04-25-19-48-21,stepfun/step-3.5-flash,16,,,0.83,2\pi \sqrt{\frac{m l^3}{32 k q^2}},s,,,,574,12651,13225,1,electrostatics,0.0038527,1,0,1
+2026-04-25-19-51-42,stepfun/step-3.5-flash,17,,,94.87,\sqrt{\frac{q}{4\pi\varepsilon_0 E}},m,,,,539,12440,12979,1,electrostatics,0.0037859,0,0,1
+2026-04-25-19-59-13,stepfun/step-3.5-flash,18,,,2.84,\frac{100 m v^2}{2 e E},cm,,,,536,29442,29978,1,electrostatics,0.0088862,0,0,1
+2026-04-25-19-59-50,stepfun/step-3.5-flash,19,,,0.4,\frac{2}{5},1,,,,548,6049,6597,1,electrostatics,0.0018695,1,0,1
+2026-04-25-20-02-22,stepfun/step-3.5-flash,20,,,,v_0 < \sqrt{\frac{2kQq}{m r_0}},m/s,,,,545,24004,24549,1,electrostatics,0.0072557,1,0,0
+2026-04-25-20-04-04,stepfun/step-3.5-flash,21,,,3,3,1,,,,603,16279,16882,1,nuclear,0.004944,0,0,1
+2026-04-25-20-09-01,stepfun/step-3.5-flash,22,,,27,m = \frac{P t m_0}{n E},kg,,,,582,21572,22154,1,nuclear,0.0065298,0,0,1
+2026-04-25-20-12-39,stepfun/step-3.5-flash,23,,,41.60246,\frac{60 \ln 2}{\ln \frac{250}{92}},min,,,,562,22249,22811,1,nuclear,0.0067309,0,0,1
+2026-04-25-20-15-53,stepfun/step-3.5-flash,24,,,35.48,35 \times 0.758 + 37 \times 0.242,1,,,,558,19257,19815,1,nuclear,0.0058329,0,0,0
+2026-04-25-20-20-24,stepfun/step-3.5-flash,25,,,1.24,1.239841984 \mathrm{MeV},MeV,,,,526,16697,17223,1,nuclear,0.0050617,1,0,1
+2026-04-23-12-41-08,x-ai/grok-4.20,1,,,1414.21,\sqrt{a l},m/s,,,,613,34,647,1,mechanics,0.0013148,0,1,1
+2026-04-23-12-41-10,x-ai/grok-4.20,2,,,-1.25,\frac{x(6)-x(2)}{6-2},m/s,,,,623,40,663,1,mechanics,0.0013868,0,0,1
+2026-04-23-12-41-12,x-ai/grok-4.20,3,,,0.2,\frac{32}{\sqrt{80^{2}+50^{2}}},h,,,,599,42,641,1,mechanics,0.0013348,0,0,1
+2026-04-23-12-41-13,x-ai/grok-4.20,4,,,2.24,\arccos\left(\frac{2}{\sqrt{5}}\right),1,,,,675,46,721,1,mechanics,0.0015108,0,0,0
+2026-04-23-12-41-15,x-ai/grok-4.20,5,,,160,\frac{1}{2} m v_i^2 / t,W,,,,626,38,664,1,mechanics,0.0013648,1,0,0
+2026-04-23-12-41-17,x-ai/grok-4.20,6,,,123.2,\frac{N m v_{rms}^2}{3L},N/m,,,,646,39,685,1,thermodynamics,0.0014108,0,0,1
+2026-04-23-12-41-18,x-ai/grok-4.20,7,,,9.57,m R T \ln \left( \frac{V_2}{V_1} \right),kJ,,,,605,48,653,1,thermodynamics,0.0013828,0,0,1
+2026-04-23-12-41-21,x-ai/grok-4.20,8,,,33.4,\frac{(P_0 + \rho g h) V_1}{T_1} = \frac{P_0 (1.8 V_1)}{T_2},m,,,,607,63,670,1,thermodynamics,0.0014768,0,0,1
+2026-04-23-12-41-22,x-ai/grok-4.20,9,,,51.4,\frac{e_s(15^\circ \text{C})}{e_s(30^\circ \text{C})} \times 100\%,1,,,,604,56,660,1,thermodynamics,0.0014288,0,0,0
+2026-04-23-12-41-24,x-ai/grok-4.20,10,,,3.57,p_1 V_1 \ln \left( \frac{V_2}{V_1} \right),kJ,,,,614,51,665,1,thermodynamics,0.0014188,0,0,1
+2026-04-23-12-41-26,x-ai/grok-4.20,11,,,0.01,\frac{17 \times 3.5}{300},mm,,,,594,38,632,1,optics,0.0011856,0,0,1
+2026-04-23-12-41-28,x-ai/grok-4.20,12,,,40,\frac{f_o}{f_e},1,,,,585,31,616,1,optics,0.0012408,0,0,1
+2026-04-23-12-41-29,x-ai/grok-4.20,13,,,90,90^\circ,1,,,,613,29,642,1,optics,0.0012848,0,0,0
+2026-04-23-12-41-31,x-ai/grok-4.20,14,,,20,d - h,cm,,,,628,28,656,1,optics,0.0013088,0,0,1
+2026-04-23-12-41-33,x-ai/grok-4.20,15,,,1000,\lambda = \frac{a \sin \theta}{1},nm,,,,591,37,628,1,optics,0.0012888,0,0,1
+2026-04-23-12-41-35,x-ai/grok-4.20,16,,,2,2\pi\sqrt{\frac{2\pi\varepsilon_0 m l^3}{3q^2}},s,,,,649,52,701,1,electrostatics,0.0014948,0,0,1
+2026-04-23-12-41-37,x-ai/grok-4.20,17,,,0.01,\frac{1}{4 \pi \epsilon_0} \frac{q}{E},m,,,,613,47,660,1,electrostatics,0.0013928,0,0,1
+2026-04-23-12-41-39,x-ai/grok-4.20,18,,,0.06,\frac{m v^{2}}{2 e E},m,,,,612,37,649,1,electrostatics,0.0013308,0,0,0
+2026-04-23-12-41-40,x-ai/grok-4.20,19,,,0.5,\frac{1}{2},1,,,,624,32,656,1,electrostatics,0.0013248,0,0,1
+2026-04-23-12-41-42,x-ai/grok-4.20,20,,,,v_0 < \sqrt{\frac{2Qq}{4\pi\epsilon_0 m r_0}},1,,,,622,48,670,1,electrostatics,0.0013016,1,0,0
+2026-04-23-12-41-44,x-ai/grok-4.20,21,,,3,3,1,,,,682,28,710,1,nuclear,0.0014168,0,0,1
+2026-04-23-12-41-45,x-ai/grok-4.20,22,,,0.24,\frac{P t}{ \eta E},kg,,,,656,34,690,1,nuclear,0.0014008,0,0,1
+2026-04-23-12-41-47,x-ai/grok-4.20,23,,,47.5,\frac{\ln 2 \cdot t}{\ln (\frac{\Delta n_0}{\Delta n})},min,,,,640,51,691,1,nuclear,0.0008603,0,0,1
+2026-04-23-12-41-49,x-ai/grok-4.20,24,,,35.45,0.758 \times 35 + 0.242 \times 37,g/mol,,,,634,44,678,1,nuclear,0.0014168,0,0,1
+2026-04-23-12-41-51,x-ai/grok-4.20,25,,,1.24,1.24,MeV,,,,605,31,636,1,nuclear,0.0012808,1,0,1
+2026-04-25-15-51-35,xiaomi/mimo-v2.5-pro,1,,,1000,\sqrt{a l},m/s,,,,749,902,1651,1,mechanics,0.0033014,1,1,1
+2026-04-25-15-54-08,xiaomi/mimo-v2.5-pro,2,,,-0.5,v_{avg} = A + B(t_1^2 + t_1 t_2 + t_2^2),m/s,,,,756,1745,2501,1,mechanics,0.0348204,1,0,1
+2026-04-25-15-55-27,xiaomi/mimo-v2.5-pro,3,,,0.29,\frac{128}{445} \text{ h},h,,,,729,5821,6550,1,mechanics,0.0180384,1,0,1
+2026-04-25-15-57-22,xiaomi/mimo-v2.5-pro,4,,,0.27,\theta = \arctan\left(\frac{3}{11}\right),rad,,,,801,8859,9660,1,mechanics,0.0272244,0,0,0
+2026-04-25-15-57-56,xiaomi/mimo-v2.5-pro,5,,,160,\frac{m u^2}{2 t},W,,,,756,2283,3039,1,mechanics,0.0074514,1,0,0
+2026-04-25-15-59-11,xiaomi/mimo-v2.5-pro,6,,,29.5,\frac{N m v_{\text{rms}}^2}{2A},N/m,,,,780,5688,6468,1,thermodynamics,0.0176904,1,0,1
+2026-04-25-16-00-43,xiaomi/mimo-v2.5-pro,7,,,6.5,\frac{m}{M} R T \ln\left(\frac{V_2}{V_1}\right),kJ,,,,742,7200,7942,1,thermodynamics,0.0221884,1,0,1
+2026-04-25-16-12-07,xiaomi/mimo-v2.5-pro,8,,,7.9,h = \frac{P_{\text{atm}}}{\rho g} \left(1.8 \frac{T_{\text{bottom}}}{T_{\text{top}}} - 1\right),m,,,,736,4792,5528,1,thermodynamics,0.015112,1,0,1
+2026-04-25-16-12-56,xiaomi/mimo-v2.5-pro,9,,,0.4,\frac{e_s(15^\circ \text{C})}{e_s(30^\circ \text{C})},1,,,,733,3741,4474,1,thermodynamics,0.0118024,0,0,0
+2026-04-25-16-13-59,xiaomi/mimo-v2.5-pro,10,,,2.06,p_1 V_1 \ln\left(\frac{V_2}{V_1}\right),kJ,,,,748,4641,5389,1,thermodynamics,0.0145174,1,0,1
+2026-04-25-16-15-12,xiaomi/mimo-v2.5-pro,11,,,0,-\frac{v}{u} h_o,m,,,,723,5323,6046,1,optics,0.0165384,0,0,0
+2026-04-25-16-15-43,xiaomi/mimo-v2.5-pro,12,,,40,\frac{f_o}{f_e},1,,,,716,2126,2842,1,optics,0.0069404,0,0,1
+2026-04-25-16-19-53,xiaomi/mimo-v2.5-pro,13,,,,\frac{\pi}{3},rad,,,,767,18199,18966,1,optics,0.0552104,0,0,0
+2026-04-25-16-23-11,xiaomi/mimo-v2.5-pro,14,,,0.1,\frac{n(d-2h)}{2},m,,,,775,13512,14287,1,optics,0.0411574,0,0,0
+2026-04-25-16-24-27,xiaomi/mimo-v2.5-pro,15,,,0,\lambda = a \sin(\theta),m,,,,719,5460,6179,1,optics,0.0169454,0,0,0
+2026-04-25-16-25-40,xiaomi/mimo-v2.5-pro,16,,,0.83,2\pi \sqrt{\frac{m l^3}{32 k q^2}},s,,,,804,5754,6558,1,electrostatics,0.0179124,1,0,1
+2026-04-25-16-26-38,xiaomi/mimo-v2.5-pro,17,,,94.87,\sqrt{\frac{q}{4\pi\varepsilon_0 E}},m,,,,756,4179,4935,1,electrostatics,0.0131394,0,0,1
+2026-04-25-16-28-02,xiaomi/mimo-v2.5-pro,18,,,2.84,\frac{m v^2}{2 e E},cm,,,,759,6686,7445,1,electrostatics,0.0206634,0,0,1
+2026-04-25-16-28-42,xiaomi/mimo-v2.5-pro,19,,,0.4,\frac{2}{5},1,,,,773,2877,3650,1,electrostatics,0.0092504,1,0,1
+2026-04-25-16-29-28,xiaomi/mimo-v2.5-pro,20,,,,v_0 \geq \sqrt{\frac{2kQq}{mr_0}},m/s,,,,750,3300,4050,1,electrostatics,0.0104964,1,0,0
+2026-04-25-16-30-27,xiaomi/mimo-v2.5-pro,21,,,3,\frac{1}{\sqrt{\frac{1}{4} - \frac{k}{d \sin \phi R}}},1,,,,830,4476,5306,1,nuclear,0.0141044,0,0,1
+2026-04-25-16-31-40,xiaomi/mimo-v2.5-pro,22,,,27,\frac{P \cdot t}{n \cdot E},kg,,,,803,5753,6556,1,nuclear,0.0179084,0,0,1
+2026-04-25-16-33-34,xiaomi/mimo-v2.5-pro,23,,,41.6,T_{1/2} = \frac{60 \ln 2}{\ln(250/92)},min,,,,791,3659,4450,1,nuclear,0.0034445862,0,0,1
+2026-04-25-16-34-04,xiaomi/mimo-v2.5-pro,24,,,35.48,\text{Atomic mass} = 35 \times 0.758 + 37 \times 0.242,g/mol,,,,773,2186,2959,1,nuclear,0.0071774,0,0,1
+2026-04-25-16-35-10,xiaomi/mimo-v2.5-pro,25,,,1.24,\frac{hc}{\lambda},MeV,,,,735,4931,5666,1,nuclear,0.0153744,1,1,1
